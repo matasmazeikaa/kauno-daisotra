@@ -1,0 +1,8 @@
+// Global is imported to the root of the project
+@import './global/reset';
+@import './global/global-typography';
+@import './global/helpers';
+
+html {
+	font-size: 62.5%;
+}

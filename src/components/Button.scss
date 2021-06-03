@@ -1,0 +1,30 @@
+.button {
+	border-radius: $border-radius-100;
+	background-color: $white;
+	color: $primary;
+	padding: 1.6rem 4rem;
+	font-size: 1.4rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.2s ease, color 0.2s ease, border 0.2s ease;
+
+	&--secondary {
+		background-color: transparent;
+		border: 1px solid $white;
+
+		&:hover, &:active, &:focus {
+			background-color: $secondary;
+			border-color: $secondary;
+			color: $white;
+		}
+	}
+
+	&--primary {
+		&:hover, &:active, &:focus {
+			background-color: $primary;
+			color: $white;
+		}
+	}
+}

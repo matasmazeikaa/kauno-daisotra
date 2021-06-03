@@ -1,0 +1,13 @@
+.header {
+	padding: 2rem $section-side-padding;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+
+	@include up-to-medium {
+		padding: 2rem $section-side-mobile;
+	}
+}

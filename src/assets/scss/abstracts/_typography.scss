@@ -1,0 +1,42 @@
+$font-family: 'Rubik', sans-serif;
+
+@mixin h1 {
+	font-size: 4rem;
+	line-height: 1.5em;
+	font-weight: 700;
+	color: $white;
+	text-align: center;
+}
+
+@mixin h2 {
+	font-size: 3.6rem;
+	line-height: 1.5em;
+	font-weight: 700;
+	margin-bottom: 2.4rem;
+	text-align: center;
+	color: $white;
+}
+
+@mixin h3 {
+	font-size: 1.6rem;
+	line-height: 1.5em;
+	font-weight: 700;
+	text-align: center;
+	color: $white;
+}
+
+@mixin body {
+	font-size: 1.8rem;
+	line-height: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	color: $white;
+}
+
+@mixin body-small {
+	font-size: 1.6rem;
+	line-height: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	color: $grey;
+}
