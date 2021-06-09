@@ -5,6 +5,9 @@
 	position: absolute;
 	width: 100%;
 	z-index: 1;
+	transition: all 1.1s ease-out;
+	opacity: 0;
+	pointer-events: none;
 
 	&__nav-container {
 		align-self: center;

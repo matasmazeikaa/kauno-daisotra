@@ -1,20 +1,31 @@
 import React from 'react';
-import BackgroundImage from 'gatsby-background-image';
-import Section from '@/components/Section';
 import './HomeHeroSection.scss';
 import Button from '@/components/Button';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import GatsbyImage from 'gatsby-image';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import BackgroundOverlay from '@/components/BackgroundOverlay';
 
 const HomeHeroSection = ({ hero }) => (
-	<BackgroundImage
-		Tag="section"
-		fluid={hero.background.image.childImageSharp.fluid}
-	>
-		<Section className="home-hero-section">
+	<section className="home-hero-section" key={1}>
+		<BackgroundOverlay />
+		<div className="home-hero-section__hero-text-container">
 			<h1 className="home-hero-section__title">{hero.title}</h1>
 			<p className="body home-hero-section__info">{hero.description}</p>
 			<Button title="Bendradarbiaukime" />
-		</Section>
-	</BackgroundImage>
+		</div>
+		<Splide options={{ arrow: false, autoplay: true, speed: 800 }}>
+			<SplideSlide>
+				<GatsbyImage className="home-hero-section__image" fluid={hero.background.image.childImageSharp.fluid} />
+			</SplideSlide>
+			<SplideSlide>
+				<GatsbyImage className="home-hero-section__image" fluid={hero.background.image.childImageSharp.fluid} />
+			</SplideSlide>
+			<SplideSlide>
+				<GatsbyImage className="home-hero-section__image" fluid={hero.background.image.childImageSharp.fluid} />
+			</SplideSlide>
+		</Splide>
+	</section>
 );
 
 export default HomeHeroSection;

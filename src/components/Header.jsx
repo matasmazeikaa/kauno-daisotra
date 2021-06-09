@@ -13,7 +13,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 const Header = () => (
-	<header className="header">
+	<header className="header" id="header">
 		<Logo />
 		<nav className="header__nav-container">
 			<ol className="header__links">

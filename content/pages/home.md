@@ -39,28 +39,38 @@ services:
     image: /static/img/home-services.png
     alt: Services background
   services:
-    - title: Paslauga nr1
-      description: Trumpas aprašymas apie teikiamą paslaugą, jos naudą klientams.
+    - title: Refrižeratorių ir dėžių priekabos
+      image:
+        image: /static/img/refrigerator.svg
+        alt: Šaldytuvas
       button:
         title: Daugiau
         to: /
-    - title: Paslauga nr1
-      description: Trumpas aprašymas apie teikiamą paslaugą, jos naudą klientams.
+    - title: Įtempiamos priekabos
       button:
         title: Daugiau
         to: /
-    - title: Paslauga nr1
-      description: Trumpas aprašymas apie teikiamą paslaugą, jos naudą klientams.
+      image:
+        image: /static/img/delivery-trailer.svg
+        alt: Įtempiamos priekabos
+    - title: BDF konteineriai
       button:
         title: Daugiau
         to: /
-    - title: Paslauga nr1
-      description: Trumpas aprašymas apie teikiamą paslaugą, jos naudą klientams.
+      image:
+        image: /static/img/worldwide-shipping.svg
+        alt: BDF konteineriai
+    - title: Konteinerių transportavimas
       button:
         title: Daugiau
         to: /
-    - title: Paslauga nr1
-      description: Trumpas aprašymas apie teikiamą paslaugą, jos naudą klientams.
+      image:
+        image: /static/img/freight.svg
+        alt: Konteinerių transportavimas
+    - title: Pavojingų krovinių transportavimas
+      image:
+        image: /static/img/toxic.svg
+        alt: Pavojingų krovinių transportavimas
       button:
         title: Daugiau
         to: /
@@ -103,6 +113,7 @@ whyUs:
 contactUs:
   title: Susisiekite su mumis
   description: Mūsų teikiamos krovinių gabenimo paslaugos vertos Jūsų dėmesio
+
   background:
     image: /static/img/circles.png
     alt: Circles

@@ -1,0 +1,32 @@
+.fp-viewing-pradzia .header {
+  opacity: 1;
+  transition: all 1.1s ease-out;
+}
+
+#fp-nav > ul > li {
+  margin: 0 0 5.2rem !important;
+}
+
+#fp-nav > ul > li > .active > span {
+  background-color: $white;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+#fp-nav > ul > li > a > span:not(.s) {
+  width: .9rem;
+  height: .9rem;
+}
+
+#fp-nav > ul > li > div {
+  @include button;
+  font-size: 1rem !important;
+}
+
+#fp-nav > ul > li > a  {
+  display: flex !important;
+}
+
+#fp-nav {
+  left: 5.2rem !important;
+}

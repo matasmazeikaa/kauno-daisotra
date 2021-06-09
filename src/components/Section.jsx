@@ -4,7 +4,7 @@ import cx from 'classnames';
 
 const Section = ({ className, children }) => (
 	<section className={cx({
-		section: true,
+		'section-class': true,
 		[className]: className,
 	})}
 	>

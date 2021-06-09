@@ -5,7 +5,7 @@ import GatsbyImage from 'gatsby-image';
 import EuropeSvg from '../../../static/img/europe.svg';
 
 const HomeAboutUsSection = ({ aboutUs }) => (
-	<div className="about-us-background">
+	<div className="about-us-background" key={2}>
 		<img className="about-us-background__europe-background" src={EuropeSvg} alt="Europe" />
 		<Section className="about-us">
 			<div className="about-us__text-container">

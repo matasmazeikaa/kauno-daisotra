@@ -2,21 +2,23 @@ import React from 'react';
 import BackgroundImage from 'gatsby-background-image';
 import Section from '@/components/Section';
 import './HomerServicesSections.scss';
-import GatsbyImage from 'gatsby-image';
 import Button from '@/components/Button';
+import BackgroundOverlay from '@/components/BackgroundOverlay';
 
 const HomeServicesSection = ({ services }) => (
 	<BackgroundImage
 		Tag="section"
 		fluid={services.background.image.childImageSharp.fluid}
+		className="home-services-background"
 	>
+		<BackgroundOverlay opacity={0.8} />
 		<Section className="home-services">
 			<h2 className="mb-40">{services.title}</h2>
 			<div className="home-services__services mb-80">
-				{services.services.map(({ title, button }) => (
+				{services.services.map(({ title, button, image }) => (
 					<div className="home-services__service">
-						<GatsbyImage className="mb-24" />
-						<h3 className="mb-8">{title}</h3>
+						<img className="mb-24" src={image.image.publicURL} alt={image.alt} />
+						<h3 className="home-services__service-title">{title}</h3>
 						<Button title={button.title} to={button.to} type="secondary" />
 					</div>
 				))}

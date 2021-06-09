@@ -5,10 +5,12 @@
   "author": "Matas Mazeika",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
+    "@splidejs/react-splide": "^0.4.4",
     "classnames": "^2.3.1",
     "gatsby": "^2.20.35",
     "gatsby-background-image": "^1.5.3",
     "gatsby-image": "^2.3.5",
+    "gatsby-image-background-slider": "^0.0.4",
     "gatsby-plugin-google-fonts-v2": "^1.0.0",
     "gatsby-plugin-netlify": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.2.5",
@@ -29,7 +31,8 @@
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "react-slideshow-image": "^3.4.6"
   },
   "keywords": [
     "gatsby"

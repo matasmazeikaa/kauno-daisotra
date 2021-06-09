@@ -4,6 +4,7 @@ import { graphql, withPrefix } from 'gatsby';
 import '@/components/Layout.scss';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ReactFullpage from '@fullpage/react-fullpage';
 
 const Layout = ({ children, pageMetadata }) => {
 	const { title, description } = pageMetadata;
@@ -48,9 +49,26 @@ const Layout = ({ children, pageMetadata }) => {
 					content={`${withPrefix('/')}img/og-image.jpg`}
 				/>
 			</Helmet>
-			<Header />
-			{children}
-			<Footer />
+
+			<ReactFullpage
+				debug /* Debug logging */
+				navigation
+				anchors={['pradzia', 'apie-mus', 'paslaugos', 'transportavimas', 'kodel-mes', 'kontaktai']}
+				navigationTooltips={['Pradžia', 'Apie mus', 'Paslaugos', 'Transportavimas', 'Kodėl mes?', 'Kontaktai']}
+				fixedElements="#header"
+				navigationPosition="left"
+				render={() => (
+					<>
+						<Header />
+						<ReactFullpage.Wrapper>
+							{children}
+							<div className="section fp-auto-height">
+								<Footer />
+							</div>
+						</ReactFullpage.Wrapper>
+					</>
+				)}
+			/>
 		</div>
 	);
 };

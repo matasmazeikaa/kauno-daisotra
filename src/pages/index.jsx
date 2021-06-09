@@ -7,20 +7,40 @@ import HomeServicesSection from '@/pages/home/HomeServicesSection';
 import HomeTransportationSection from '@/pages/home/HomeTransportationSection';
 import HomeWhyUs from '@/pages/home/HomeWhyUs';
 import HomeContactUs from '@/pages/home/HomeContactUs';
+import ReactFullpage from '@fullpage/react-fullpage';
+import Footer from '@/components/Footer';
 
 const IndexPage = ({ data }) => {
 	const {
-		hero, aboutUs, pageMetadata, services, transportation, whyUs, contactUs,
+		hero,
+		aboutUs,
+		pageMetadata,
+		services,
+		transportation,
+		whyUs,
+		contactUs,
 	} = data.content.childMarkdownRemark.frontmatter;
 
 	return (
 		<Layout pageMetadata={pageMetadata}>
-			<HomeHeroSection hero={hero} />
-			<HomeAboutUsSection aboutUs={aboutUs} />
-			<HomeServicesSection services={services} />
-			<HomeTransportationSection transportation={transportation} />
-			<HomeWhyUs whyUs={whyUs} />
-			<HomeContactUs contactUs={contactUs} />
+			<div className="section">
+				<HomeHeroSection key={1} hero={hero} />
+			</div>
+			<div className="section">
+				<HomeAboutUsSection key={2} aboutUs={aboutUs} />
+			</div>
+			<div className="section">
+				<HomeServicesSection key={3} services={services} />
+			</div>
+			<div className="section">
+				<HomeTransportationSection key={4} transportation={transportation} />
+			</div>
+			<div className="section">
+				<HomeWhyUs key={5} whyUs={whyUs} />
+			</div>
+			<div className="section">
+				<HomeContactUs key={6} contactUs={contactUs} />
+			</div>
 		</Layout>
 	);
 };
@@ -87,7 +107,12 @@ export const PageQuery = graphql`
                         }
                         services {
                             title
-                            description
+                            image {
+                            		image { 
+                            				publicURL
+                            		}
+                            		alt
+                            }
                             button {
                                 title
                                 to
