@@ -8,6 +8,16 @@
 		max-width: 54rem;
 	}
 
+	&__title {
+		margin-bottom: 2.4rem;
+		text-align: left;
+	}
+
+	&__info {
+		margin-bottom: 4rem;
+		text-align: left;
+	}
+
 	&__image-container {
 		position: relative;
 		width: 100%;
@@ -45,6 +55,20 @@
 		top: 0;
 		bottom: 0;
 	}
+
+	@include up-to-medium {
+		&__title {
+			margin-bottom: 1.6rem;
+		}
+
+		&__info {
+			margin-bottom: 2.4rem;
+		}
+
+		&__image-container {
+			display: none;
+		}
+	}
 }
 
 .about-us-background {
@@ -59,5 +83,14 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-75%, -50%);
+	}
+
+	@include up-to-medium {
+		&__europe-background {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
 	}
 }

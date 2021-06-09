@@ -1,0 +1,23 @@
+.home-contact-us {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 8rem 0 8rem 10%;
+
+  &__text-container {
+    max-width: 36rem;
+  }
+
+  &__list {
+    margin-bottom: 6.4rem;
+  }
+
+  &__iframe-location {
+    position: absolute;
+    right: -34rem;
+    width: 102rem;
+    height: calc(100% - 16rem);
+    clip-path: inset(0 0 0 11%);
+  }
+}

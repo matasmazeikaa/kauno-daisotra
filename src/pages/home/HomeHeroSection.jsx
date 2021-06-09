@@ -10,8 +10,8 @@ const HomeHeroSection = ({ hero }) => (
 		fluid={hero.background.image.childImageSharp.fluid}
 	>
 		<Section className="home-hero-section">
-			<h1 className="mb-24">{hero.title}</h1>
-			<p className="body mb-40">{hero.description}</p>
+			<h1 className="home-hero-section__title">{hero.title}</h1>
+			<p className="body home-hero-section__info">{hero.description}</p>
 			<Button title="Bendradarbiaukime" />
 		</Section>
 	</BackgroundImage>

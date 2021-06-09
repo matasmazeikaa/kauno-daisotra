@@ -82,4 +82,45 @@ transportation:
   background:
     image: /static/img/home-transportation.png
     alt: Transportation
+whyUs:
+  title: Kodėl mes?
+  description: Kiekvienas mūsų komandos narys - profesionalus, motyvuotas darbuotojas, sukaupęs daugiametę patirtį transporto srityje. Jūs galite mums patikėti savo krovinius.
+  image:
+    image: /static/img/home-why-us.png
+    alt: Why us
+  background:
+    image: /static/img/circles.png
+    alt: Circles
+  info:
+    - title: Kas mes tokie?
+      image:
+        image: /static/img/driving.svg
+        alt: Driving
+    - title: Ką mes siųlome?
+      image:
+        image: /static/img/box.svg
+        alt: About us image
+contactUs:
+  title: Susisiekite su mumis
+  description: Mūsų teikiamos krovinių gabenimo paslaugos vertos Jūsų dėmesio
+  background:
+    image: /static/img/circles.png
+    alt: Circles
+  info:
+    - title: Adresas
+      description: Ateities pl. 30A, Kaunas LT\
+                   52163, Lietuva
+      image:
+        image: /static/img/location.svg
+        alt: Location
+    - title: Telefonas
+      description: +370 37 457 474
+      image:
+        image: /static/img/phone-call.svg
+        alt: Telefonas
+    - title: Faksas
+      description: +370 37 452 967
+      image:
+        image: /static/img/fax.svg
+        alt: Faksas
 ---

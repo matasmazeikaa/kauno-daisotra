@@ -5,10 +5,12 @@ import HomeHeroSection from '@/pages/home/HomeHeroSection';
 import HomeAboutUsSection from '@/pages/home/HomeAboutUsSection';
 import HomeServicesSection from '@/pages/home/HomeServicesSection';
 import HomeTransportationSection from '@/pages/home/HomeTransportationSection';
+import HomeWhyUs from '@/pages/home/HomeWhyUs';
+import HomeContactUs from '@/pages/home/HomeContactUs';
 
 const IndexPage = ({ data }) => {
 	const {
-		hero, aboutUs, pageMetadata, services, transportation,
+		hero, aboutUs, pageMetadata, services, transportation, whyUs, contactUs,
 	} = data.content.childMarkdownRemark.frontmatter;
 
 	return (
@@ -17,6 +19,8 @@ const IndexPage = ({ data }) => {
 			<HomeAboutUsSection aboutUs={aboutUs} />
 			<HomeServicesSection services={services} />
 			<HomeTransportationSection transportation={transportation} />
+			<HomeWhyUs whyUs={whyUs} />
+			<HomeContactUs contactUs={contactUs} />
 		</Layout>
 	);
 };
@@ -121,6 +125,43 @@ export const PageQuery = graphql`
                             }
                             alt
                         }
+                    }
+                    whyUs {
+                        title
+                        description
+                        image {
+                            image {
+                                childImageSharp {
+                                    fluid(maxWidth: 1980) {
+                                        ...GatsbyImageSharpFluid
+                                    }
+                                }
+                            }
+                            alt
+                        }
+                        info {
+                            title
+                            image {
+                                image {
+                                    publicURL
+                                }
+                                alt
+                            }
+                        }
+                    }
+                    contactUs {
+                    		title
+                    		description
+                    		info {
+                    				title
+                    				description
+                    				image {
+                    						image {
+                    								publicURL
+                    						}
+                    						alt
+                    				}
+                    		}
                     }
                 }
             }

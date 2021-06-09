@@ -9,8 +9,8 @@ const HomeAboutUsSection = ({ aboutUs }) => (
 		<img className="about-us-background__europe-background" src={EuropeSvg} alt="Europe" />
 		<Section className="about-us">
 			<div className="about-us__text-container">
-				<h2 className="mb-24 text-uppercase">{aboutUs.title}</h2>
-				<p className="body mb-40">{aboutUs.description}</p>
+				<h2 className="about-us__title text-uppercase">{aboutUs.title}</h2>
+				<p className="body about-us__info">{aboutUs.description}</p>
 				<ul>
 					{aboutUs.info.map((point) => (
 						<li>

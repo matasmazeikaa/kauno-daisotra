@@ -1,0 +1,49 @@
+.home-why-us {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 8rem 10% 8rem 0;
+
+  &__text-container {
+    max-width: 54rem;
+  }
+
+  &__image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__box-empty {
+    width: 24rem;
+    height: 5.9rem;
+    border: 4px solid $secondary;
+    background-color: transparent;
+    position: absolute;
+    bottom: -3rem;
+    right: 23rem;
+  }
+
+  &__box {
+    width: 12rem;
+    height: 8rem;
+    background-color: $secondary;
+    position: absolute;
+    top: -3rem;
+    right: 23rem;
+  }
+
+  &__point-image-container {
+    display: flex;
+  }
+
+  &__image {
+    width: 100%;
+    clip-path: inset(0 13% 0 21%);
+    position: absolute !important;
+    left: -16rem;
+    top: 0;
+    bottom: 0;
+  }
+}

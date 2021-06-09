@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import { graphql, withPrefix } from 'gatsby';
 import '@/components/Layout.scss';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const Layout = ({ children, pageMetadata }) => {
 	const { title, description } = pageMetadata;
@@ -49,6 +50,7 @@ const Layout = ({ children, pageMetadata }) => {
 			</Helmet>
 			<Header />
 			{children}
+			<Footer />
 		</div>
 	);
 };

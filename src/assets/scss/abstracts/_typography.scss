@@ -6,6 +6,10 @@ $font-family: 'Rubik', sans-serif;
 	font-weight: 700;
 	color: $white;
 	text-align: center;
+
+	@include up-to-medium {
+		font-size: 3.2rem;
+	}
 }
 
 @mixin h2 {
@@ -15,6 +19,10 @@ $font-family: 'Rubik', sans-serif;
 	margin-bottom: 2.4rem;
 	text-align: center;
 	color: $white;
+
+	@include up-to-medium {
+		font-size: 2.8rem;
+	}
 }
 
 @mixin h3 {
@@ -23,7 +31,24 @@ $font-family: 'Rubik', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	color: $white;
+
+	@include up-to-medium {
+		font-size: 1.4rem;
+	}
 }
+
+@mixin label {
+	font-size: 1rem;
+	line-height: 1.5em;
+	font-weight: 600;
+	text-align: center;
+	color: $white;
+
+	@include up-to-medium {
+		font-size: 1.6rem;
+	}
+}
+
 
 @mixin body {
 	font-size: 1.8rem;
@@ -31,6 +56,10 @@ $font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	text-align: center;
 	color: $white;
+
+	@include up-to-medium {
+		font-size: 1.6rem;
+	}
 }
 
 @mixin body-small {
@@ -39,4 +68,19 @@ $font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	text-align: center;
 	color: $grey;
+
+	@include up-to-medium {
+		font-size: 1.4rem;
+	}
+}
+
+@mixin button {
+	font-size: 1.4rem;
+	line-height: 1.35;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+
+	@include up-to-medium {
+		font-size: 1.2rem;
+	}
 }

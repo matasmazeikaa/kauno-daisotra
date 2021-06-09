@@ -13,11 +13,10 @@ const HomeServicesSection = ({ services }) => (
 		<Section className="home-services">
 			<h2 className="mb-40">{services.title}</h2>
 			<div className="home-services__services mb-80">
-				{services.services.map(({ title, description, button }) => (
+				{services.services.map(({ title, button }) => (
 					<div className="home-services__service">
 						<GatsbyImage className="mb-24" />
 						<h3 className="mb-8">{title}</h3>
-						<p className="body-small mb-48 text-center">{description}</p>
 						<Button title={button.title} to={button.to} type="secondary" />
 					</div>
 				))}
