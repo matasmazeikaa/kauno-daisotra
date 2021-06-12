@@ -2,14 +2,15 @@ import React from 'react';
 import Link from '@/components/Link';
 import Logo from '@/components/Logo';
 import './Header.scss';
+import HeaderMobileBurger from '@/components/HeaderMobileBurger';
 
 export const NAVIGATION_LINKS = [
-	{ to: '/about', title: 'Pradzia' },
-	{ to: '/about', title: 'Apie mus' },
-	{ to: '/about', title: 'Paslaugos' },
-	{ to: '/about', title: 'Transportavimas' },
-	{ to: '/about', title: 'Kodel mes' },
-	{ to: '/about', title: 'Kotnaktai' },
+	{ to: '#pradzia', title: 'Pradzia' },
+	{ to: '#apie-mus', title: 'Apie mus' },
+	{ to: '#paslaugos', title: 'Paslaugos' },
+	{ to: '#transportavimas', title: 'Transportavimas' },
+	{ to: '#kodel-mes', title: 'Kodel mes' },
+	{ to: '#kontaktai', title: 'Kontaktai' },
 ];
 
 const Header = () => (
@@ -28,6 +29,7 @@ const Header = () => (
 			<Link className="mr-24" title="LT" href="/home" />
 			<Link title="EN" href="/home" />
 		</div>
+		<HeaderMobileBurger />
 	</header>
 );
 export default Header;

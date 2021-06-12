@@ -15,7 +15,7 @@ const HomeTransportationSection = ({ transportation }) => (
 		<Section className="home-transportation flex-all-center-column">
 			<h2 className="mb-24">{transportation.title}</h2>
 			<p className="body mb-40 white">{transportation.description}</p>
-			<Button title={transportation.button.title} to={transportation.button.to} />
+			<Button isAlwaysDesktopPadding title={transportation.button.title} to={transportation.button.to} />
 		</Section>
 	</BackgroundImage>
 );

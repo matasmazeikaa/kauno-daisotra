@@ -1,0 +1,8 @@
+.logo {
+  position: relative;
+  z-index: 120;
+
+  @include up-to-medium {
+    width: 86px;
+  }
+}

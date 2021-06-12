@@ -7,11 +7,11 @@ const HomeContactUs = ({ contactUs }) => (
 	<div className="about-us-background">
 		<section className="home-contact-us">
 			<div className="home-contact-us__text-container">
-				<h2 className="mb-32 text-uppercase text-left">{contactUs.title}</h2>
+				<h2 className="home-contact-us__title text-uppercase text-left">{contactUs.title}</h2>
 				<ul className="home-contact-us__list">
 					{contactUs.info.map((point) => (
 						<li>
-							<div className="flex flex-align-center mb-24">
+							<div className="flex flex-align-center home-contact-us__list-item">
 								<img className="mr-24 mb-auto" src={point.image.image.publicURL} alt={point.image.alt} />
 								<div className="text-left">
 									<h3 className="text-uppercase text-left">{point.title}</h3>

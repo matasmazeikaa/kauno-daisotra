@@ -13,11 +13,11 @@ const HomeServicesSection = ({ services }) => (
 	>
 		<BackgroundOverlay opacity={0.8} />
 		<Section className="home-services">
-			<h2 className="mb-40">{services.title}</h2>
-			<div className="home-services__services mb-80">
+			<h2 className="home-services__service-title">{services.title}</h2>
+			<div className="home-services__services">
 				{services.services.map(({ title, button, image }) => (
 					<div className="home-services__service">
-						<img className="mb-24" src={image.image.publicURL} alt={image.alt} />
+						<img className="home-services__service-icon" src={image.image.publicURL} alt={image.alt} />
 						<h3 className="home-services__service-title">{title}</h3>
 						<Button title={button.title} to={button.to} type="secondary" />
 					</div>
@@ -26,7 +26,11 @@ const HomeServicesSection = ({ services }) => (
 			<div className="home-services__subsection flex-all-center-column">
 				<h2 className="text-uppercase mb-8">{services.subsection.title}</h2>
 				<p className="body mb-24">{services.subsection.description}</p>
-				<Button title={services.subsection.button.title} to={services.subsection.button.to} />
+				<Button
+					isAlwaysDesktopPadding
+					title={services.subsection.button.title}
+					to={services.subsection.button.to}
+				/>
 				<img
 					src={services.subsection.background.image.publicURL}
 					alt={services.subsection.background.alt}

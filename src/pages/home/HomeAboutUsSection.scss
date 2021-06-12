@@ -3,9 +3,11 @@
 	display: flex;
 	width: 100%;
 	align-items: center;
+	padding: 8rem 0 8rem 12%;
 
 	&__text-container {
 		max-width: 54rem;
+		margin-right: 10rem;
 	}
 
 	&__title {
@@ -16,6 +18,7 @@
 	&__info {
 		margin-bottom: 4rem;
 		text-align: left;
+		white-space: pre-wrap;
 	}
 
 	&__image-container {
@@ -31,7 +34,7 @@
 		background-color: transparent;
 		position: absolute;
 		bottom: -3rem;
-		left: 23rem;
+		left: -5rem;
 	}
 
 	&__box {
@@ -40,7 +43,7 @@
 		background-color: $secondary;
 		position: absolute;
 		top: -3rem;
-		left: 23rem;
+		left: -5rem;
 	}
 
 	&__point-image-container {
@@ -48,8 +51,7 @@
 	}
 
 	&__image {
-		width: 103rem;
-		clip-path: inset(0 0 0 25%);
+		width: 100%;
 		position: absolute !important;
 		left: 0;
 		top: 0;
@@ -57,6 +59,12 @@
 	}
 
 	@include up-to-medium {
+		@include regular-section-padding;
+
+		&__text-container {
+			margin: 0;
+		}
+
 		&__title {
 			margin-bottom: 1.6rem;
 		}
@@ -64,9 +72,22 @@
 		&__info {
 			margin-bottom: 2.4rem;
 		}
+	}
 
+	@include up-to-medium-large {
 		&__image-container {
 			display: none;
+		}
+	}
+
+	@media only screen and (min-width: 1720px) {
+		padding-right: 0;
+		padding-left: 0;
+		width: 144rem;
+		margin: 0 auto;
+
+		&__image {
+			width: 144rem;
 		}
 	}
 }
@@ -85,7 +106,7 @@
 		transform: translate(-75%, -50%);
 	}
 
-	@include up-to-medium {
+	@include up-to-medium-large {
 		&__europe-background {
 			position: absolute;
 			top: 50%;

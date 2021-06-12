@@ -5,8 +5,16 @@
   align-items: center;
   padding: 8rem 0 8rem 10%;
 
+  &__title {
+    margin-bottom: 3.2rem;
+  }
+
   &__text-container {
     max-width: 36rem;
+  }
+
+  &__list-item {
+    margin-bottom: 4rem;
   }
 
   &__list {
@@ -19,5 +27,41 @@
     width: 102rem;
     height: calc(100% - 16rem);
     clip-path: inset(0 0 0 11%);
+  }
+
+
+  @include up-to-medium-large {
+    @include regular-section-padding;
+    align-items: unset;
+
+    flex-direction: column;
+
+    &__text-container {
+      max-width: unset;
+    }
+
+    &__iframe-location {
+      position: relative;
+      clip-path: unset;
+      width: 115%;
+      right: 7.5%;
+    }
+  }
+
+  @include up-to-medium {
+    &__list {
+      margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 1720px) {
+    padding-right: 0;
+    padding-left: 0;
+    width: 144rem;
+    margin: 0 auto;
+
+    &__image {
+      width: 144rem;
+    }
   }
 }

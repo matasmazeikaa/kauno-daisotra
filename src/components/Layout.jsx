@@ -55,6 +55,7 @@ const Layout = ({ children, pageMetadata }) => {
 				navigation
 				anchors={['pradzia', 'apie-mus', 'paslaugos', 'transportavimas', 'kodel-mes', 'kontaktai']}
 				navigationTooltips={['Pradžia', 'Apie mus', 'Paslaugos', 'Transportavimas', 'Kodėl mes?', 'Kontaktai']}
+				showActiveTooltip
 				fixedElements="#header"
 				navigationPosition="left"
 				render={() => (

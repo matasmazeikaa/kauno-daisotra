@@ -5,6 +5,7 @@
   "author": "Matas Mazeika",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
+    "@kunukn/react-collapse": "^2.2.9",
     "@splidejs/react-splide": "^0.4.4",
     "classnames": "^2.3.1",
     "gatsby": "^2.20.35",

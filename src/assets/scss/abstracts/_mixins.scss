@@ -86,10 +86,10 @@ $breakpoints: (
 
 
 @mixin regular-section-padding {
-	padding: 12rem $section-side-padding;
+	padding: 8rem $section-side-padding;
 
 	@include up-to-medium {
-		padding: 8rem $section-side-mobile;
+		padding: 4.2rem $section-side-mobile;
 	}
 
 	@media only screen and (min-width: 1720px) {

@@ -12,7 +12,7 @@ const HomeHeroSection = ({ hero }) => (
 		<div className="home-hero-section__hero-text-container">
 			<h1 className="home-hero-section__title">{hero.title}</h1>
 			<p className="body home-hero-section__info">{hero.description}</p>
-			<Button title="Bendradarbiaukime" />
+			<Button isAlwaysDesktopPadding title="Bendradarbiaukime" />
 		</div>
 		<Splide options={{ arrow: false, autoplay: true, speed: 800 }}>
 			<SplideSlide>

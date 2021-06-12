@@ -7,8 +7,6 @@ import HomeServicesSection from '@/pages/home/HomeServicesSection';
 import HomeTransportationSection from '@/pages/home/HomeTransportationSection';
 import HomeWhyUs from '@/pages/home/HomeWhyUs';
 import HomeContactUs from '@/pages/home/HomeContactUs';
-import ReactFullpage from '@fullpage/react-fullpage';
-import Footer from '@/components/Footer';
 
 const IndexPage = ({ data }) => {
 	const {
@@ -108,10 +106,10 @@ export const PageQuery = graphql`
                         services {
                             title
                             image {
-                            		image { 
-                            				publicURL
-                            		}
-                            		alt
+                                image {
+                                    publicURL
+                                }
+                                alt
                             }
                             button {
                                 title
@@ -154,6 +152,12 @@ export const PageQuery = graphql`
                     whyUs {
                         title
                         description
+                        background {
+                            image {
+                                publicURL
+                            }
+                            alt
+                        }
                         image {
                             image {
                                 childImageSharp {
@@ -166,6 +170,7 @@ export const PageQuery = graphql`
                         }
                         info {
                             title
+                            description
                             image {
                                 image {
                                     publicURL
@@ -175,18 +180,24 @@ export const PageQuery = graphql`
                         }
                     }
                     contactUs {
-                    		title
-                    		description
-                    		info {
-                    				title
-                    				description
-                    				image {
-                    						image {
-                    								publicURL
-                    						}
-                    						alt
-                    				}
-                    		}
+                        title
+                        description
+                        background {
+                            image {
+                                publicURL
+                            }
+                            alt
+                        }
+                        info {
+                            title
+                            description
+                            image {
+                                image {
+                                    publicURL
+                                }
+                                alt
+                            }
+                        }
                     }
                 }
             }

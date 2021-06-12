@@ -13,10 +13,13 @@ hero:
     alt: Home header
 aboutUs:
   title: Apie mus 
-  description: Kol kitos transporto kompanijos siūlo vieno tipo transporto priemones, mes galime pasiūlyti žymiai daugiau nuo krovinio gabenimo įprastinėmis tentinėmis transporto priemonėmis, iki krovinių gabenimo didžiakūbėmis transporto priemonėmis.
+  description: Kol kitos transporto kompanijos siūlo vieno tipo transporto priemones, mes galime pasiūlyti žymiai daugiau - nuo krovinio gabenimo įprastinėmis tentinėmis transporto priemonėmis, iki krovinių gabenimo didžiakūbėmis transporto priemonėmis.
+
+
+    Kai verslui reikia krovinio gabenimo iš taško A į tašką B, mes pasirūpiname ne tik saugiu transportavimu, bet ir dokumentų tvarkymu, bei krovinio draudimu.
   image:
-    image: /static/img/hero-about-us.png
-    alt: About us image
+      image: /static/img/hero-about-us.png
+      alt: About us image
   background:
     image: /static/img/europe.png
     alt: Europe
@@ -84,8 +87,8 @@ services:
       title: Bendradarbiaukime
       to: /
 transportation:
-  title: Transportavim1 padarome saugiu ir greitu
-  description: Transportavim1 padarome saugiu ir greitu
+  title: Transportavima padarome saugiu ir greitu
+  description: Nuo pirmos įkūrimo dienos (tai įvyko 1997 metais), visada vadovavomės tais pačiais sėkmingo verslo principais - paprastas, saugus ir greitas krovinių gabenimas tenkinantis tiek smulkaus verslininko, tiek didžiulės korporacijos logistinius poreikius.
   button:
     title: Bendradarbiaukime
     to: /
@@ -95,32 +98,41 @@ transportation:
 whyUs:
   title: Kodėl mes?
   description: Kiekvienas mūsų komandos narys - profesionalus, motyvuotas darbuotojas, sukaupęs daugiametę patirtį transporto srityje. Jūs galite mums patikėti savo krovinius.
+
+
+    Mūsų parką sudaro virš 45 tentinių ir didžiatūrių transporto priemonių - verčia mus transporto rinkos lyderiais ne tik Lietuvoje, bet ir visoje Europoje.
   image:
     image: /static/img/home-why-us.png
     alt: Why us
   background:
-    image: /static/img/circles.png
+    image: /static/img/circles.svg
     alt: Circles
   info:
     - title: Kas mes tokie?
+      description: Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime sutalpinti viską!
+  
+
+        Vykdydami klientų užsakymus, visada vadovaujamės principu - profesionali paslauga - patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų - užtikrins sėkmingą Jūsų krovinio pristatymą.
       image:
         image: /static/img/driving.svg
         alt: Driving
     - title: Ką mes siųlome?
+      description: Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime sutalpinti viską!
+  
+
+        Vykdydami klientų užsakymus, visada vadovaujamės principu - profesionali paslauga - patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų - užtikrins sėkmingą Jūsų krovinio pristatymą.
       image:
         image: /static/img/box.svg
         alt: About us image
 contactUs:
   title: Susisiekite su mumis
   description: Mūsų teikiamos krovinių gabenimo paslaugos vertos Jūsų dėmesio
-
   background:
-    image: /static/img/circles.png
+    image: /static/img/circles.svg
     alt: Circles
   info:
     - title: Adresas
-      description: Ateities pl. 30A, Kaunas LT\
-                   52163, Lietuva
+      description: Ateities pl. 30A, Kaunas LT <br /> 52163, Lietuva
       image:
         image: /static/img/location.svg
         alt: Location
