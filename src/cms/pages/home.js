@@ -1,4 +1,4 @@
-import { seo } from '@/cms/partials/seo';
+import { seo } from '../partials/seo';
 
 const page = {
 	file: 'content/pages/home.md',
