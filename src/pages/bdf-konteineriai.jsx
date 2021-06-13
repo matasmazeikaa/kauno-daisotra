@@ -58,7 +58,7 @@ export const PageQuery = graphql`
                 }
             }
         }
-        content: file(name: { eq: "bdf-konteineriai" }) {
+        content: file(relativePath: {eq: "pages/konteineriu-transportavimas.md"}) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {

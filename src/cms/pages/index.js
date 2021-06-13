@@ -8,7 +8,8 @@ import deziuPriekabos from './refrizeratoriu-deziu-priekabos';
 const pages = {
 	name: 'pages',
 	label: 'Pages',
-	files: [home,
+	files: [
+		home,
 		bdfKonteineriai,
 		itempiamosPriekabos,
 		konteineriuTransportavimas,

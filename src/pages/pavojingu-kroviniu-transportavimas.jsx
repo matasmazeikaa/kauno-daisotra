@@ -58,7 +58,7 @@ export const PageQuery = graphql`
                 }
             }
         }
-        content: file(name: { eq: "pavojingu-kroviniu-transportavimas" }) {
+        content: file(relativePath: {eq: "pages/pavojingu-kroviniu-transportavimas.md" }) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {

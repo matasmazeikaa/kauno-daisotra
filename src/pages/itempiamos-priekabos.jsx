@@ -58,7 +58,7 @@ export const PageQuery = graphql`
                 }
             }
         }
-        content: file(name: { eq: "itempiamos-priekabos" }) {
+        content: file(relativePath: {eq: "pages/itempiamos-priekabos.md" }) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {

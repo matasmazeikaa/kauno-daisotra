@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
 		whyUs,
 		contactUs,
 	} = data.content.childMarkdownRemark.frontmatter;
-	console.log(hero);
+
 	return (
 		<Layout pageMetadata={pageMetadata}>
 			<div className="section">

@@ -58,7 +58,7 @@ export const PageQuery = graphql`
                 }
             }
         }
-        content: file(name: { eq: "refrizeratoriu-deziu-priekabos" }) {
+        content: file(relativePath: {eq: "pages/refrizeratoriu-deziu-priekabos.md" }) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {
