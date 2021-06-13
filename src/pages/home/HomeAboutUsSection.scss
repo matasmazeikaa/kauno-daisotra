@@ -94,10 +94,10 @@
 
 .about-us-background {
 	background-color: $primary;
-	height: 100vh;
 	display: flex;
 	position: relative;
 	overflow: hidden;
+	height: 100%;
 
 	&__europe-background {
 		position: absolute;

@@ -6,7 +6,7 @@ hero:
   title: Refrižeratorių ir Dėžių Priekabos
   button:
     title: Susisiekite su mumis
-    to: /
+    to: #kontaktai
   background:
     image: /static/img/home-why-us.png
     alt: Circles

@@ -18,25 +18,25 @@ const IndexPage = ({ data }) => {
 		whyUs,
 		contactUs,
 	} = data.content.childMarkdownRemark.frontmatter;
-
+	console.log(hero);
 	return (
 		<Layout pageMetadata={pageMetadata}>
 			<div className="section">
 				<HomeHeroSection key={1} hero={hero} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<HomeAboutUsSection key={2} aboutUs={aboutUs} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<HomeServicesSection key={3} services={services} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<HomeTransportationSection key={4} transportation={transportation} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<HomeWhyUs key={5} whyUs={whyUs} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<HomeContactUs key={6} contactUs={contactUs} />
 			</div>
 		</Layout>
@@ -57,6 +57,10 @@ export const PageQuery = graphql`
                     hero {
                         title
                         description
+                        button {
+                            title
+                            to
+                        }
                         background {
                             image {
                                 childImageSharp {
@@ -198,7 +202,7 @@ export const PageQuery = graphql`
                                 alt
                             }
                         }
-                    }
+                    }   
                 }
             }
         }

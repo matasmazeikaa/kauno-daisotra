@@ -5,7 +5,7 @@ import HomeContactUs from '@/pages/home/HomeContactUs';
 import HeroSection from '@/components/HeroSection';
 import CommonServiceSection from '@/components/CommonServiceSection';
 
-const DeziuPriekabosPage = ({ data }) => {
+const BDFKonteineriai = ({ data }) => {
 	const {
 		contactUs,
 	} = data.reused.childMarkdownRemark.frontmatter;
@@ -30,7 +30,7 @@ const DeziuPriekabosPage = ({ data }) => {
 	);
 };
 
-export default DeziuPriekabosPage;
+export default BDFKonteineriai;
 
 export const PageQuery = graphql`
     query {

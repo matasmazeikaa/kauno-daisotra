@@ -6,6 +6,7 @@
 	text-transform: uppercase;
 	cursor: pointer;
 	transition: background-color 0.2s ease, color 0.2s ease, border 0.2s ease;
+	text-decoration: none;
 
 	&--secondary {
 		background-color: transparent;

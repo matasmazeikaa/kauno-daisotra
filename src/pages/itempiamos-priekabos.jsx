@@ -5,7 +5,7 @@ import HomeContactUs from '@/pages/home/HomeContactUs';
 import HeroSection from '@/components/HeroSection';
 import CommonServiceSection from '@/components/CommonServiceSection';
 
-const DeziuPriekabosPage = ({ data }) => {
+const ItempiamosPriekabos = ({ data }) => {
 	console.log(data)
 	const {
 		contactUs,
@@ -31,7 +31,7 @@ const DeziuPriekabosPage = ({ data }) => {
 	);
 };
 
-export default DeziuPriekabosPage;
+export default ItempiamosPriekabos;
 
 export const PageQuery = graphql`
     query {

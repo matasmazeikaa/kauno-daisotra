@@ -2,6 +2,11 @@
   height: 100%;
   position: relative;
   z-index: 2;
+
+  @include up-to-medium-large {
+    padding-top: 12.2rem;
+    padding-bottom: 12.2rem;
+  }
 }
 
 .home-transportation-background {

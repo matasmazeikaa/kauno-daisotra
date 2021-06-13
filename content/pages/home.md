@@ -7,7 +7,7 @@ hero:
   description: UAB Kauno Daisotra įkurta prieš du dešimtmečius. Profesionalus įmonės valdymas grįstas šeimyninėmis vertybėmis užsitarnavo pasitikėjimą tarp klientų. Per 20 pastarųjų metų įmonė užaugo ir sūlo platų transportavimo ir logistikos paslaugų spektrą visoje geografinėje Europoje.
   button:
     title: Bendradarbiaukime
-    to: /kontaktai
+    to: #kontaktai
   background:
     image: /static/img/home-header.png
     alt: Home header
@@ -48,25 +48,25 @@ services:
         alt: Šaldytuvas
       button:
         title: Daugiau
-        to: /
+        to: /refrizeratoriu-deziu-priekabos
     - title: Įtempiamos priekabos
       button:
         title: Daugiau
-        to: /
+        to: /itempiamos-priekabos
       image:
         image: /static/img/delivery-trailer.svg
         alt: Įtempiamos priekabos
     - title: BDF konteineriai
       button:
         title: Daugiau
-        to: /
+        to: /bdf-konteineriai
       image:
         image: /static/img/worldwide-shipping.svg
         alt: BDF konteineriai
     - title: Konteinerių transportavimas
       button:
         title: Daugiau
-        to: /
+        to: /konteineriu-transportavimas
       image:
         image: /static/img/freight.svg
         alt: Konteinerių transportavimas
@@ -76,7 +76,7 @@ services:
         alt: Pavojingų krovinių transportavimas
       button:
         title: Daugiau
-        to: /
+        to: /pavojingu-kroviniu-transportavimas
   subsection:
     title: Reikia sprendimo jūsų kroviniui?
     description: Mes rasime individualų sprendimą Jūsų kroviniuiĄ

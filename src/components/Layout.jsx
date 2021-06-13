@@ -58,6 +58,7 @@ const Layout = ({ children, pageMetadata }) => {
 				showActiveTooltip
 				fixedElements="#header"
 				navigationPosition="left"
+				responsiveWidth={1024}
 				render={() => (
 					<>
 						<Header />
