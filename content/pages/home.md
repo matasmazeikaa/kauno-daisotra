@@ -7,7 +7,7 @@ hero:
   description: UAB Kauno Daisotra įkurta prieš du dešimtmečius. Profesionalus įmonės valdymas grįstas šeimyninėmis vertybėmis užsitarnavo pasitikėjimą tarp klientų. Per 20 pastarųjų metų įmonė užaugo ir sūlo platų transportavimo ir logistikos paslaugų spektrą visoje geografinėje Europoje.
   button:
     title: Bendradarbiaukime
-    to: #kontaktai
+    to: '#kontaktai'
   background:
     image: /static/img/home-header.png
     alt: Home header
@@ -85,13 +85,13 @@ services:
       alt: Services background
     button:
       title: Bendradarbiaukime
-      to: /
+      to: '#kontaktai'
 transportation:
   title: Transportavima padarome saugiu ir greitu
   description: Nuo pirmos įkūrimo dienos (tai įvyko 1997 metais), visada vadovavomės tais pačiais sėkmingo verslo principais - paprastas, saugus ir greitas krovinių gabenimas tenkinantis tiek smulkaus verslininko, tiek didžiulės korporacijos logistinius poreikius.
   button:
     title: Bendradarbiaukime
-    to: /
+    to: '#kontaktai'
   background:
     image: /static/img/home-transportation.png
     alt: Transportation
@@ -132,7 +132,9 @@ contactUs:
     alt: Circles
   info:
     - title: Adresas
-      description: Ateities pl. 30A, Kaunas LT <br /> 52163, Lietuva
+      description: Ateities pl. 30A, Kaunas LT
+
+        52163, Lietuva
       image:
         image: /static/img/location.svg
         alt: Location

@@ -14,7 +14,7 @@ const HomeHeroSection = ({ hero }) => (
 		<div className="hero-section">
 			<img className="hero-section__icon" src={hero.image.image.publicURL} alt={hero.image.alt} />
 			<h1 className="hero-section__title">{hero.title}</h1>
-			<Button isAlwaysDesktopPadding title={hero.button.title} />
+			<Button isAlwaysDesktopPadding title={hero.button.title} to={hero.button.to}/>
 		</div>
 	</BackgroundImage>
 );

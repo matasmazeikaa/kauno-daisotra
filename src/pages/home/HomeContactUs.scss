@@ -17,6 +17,10 @@
     margin-bottom: 4rem;
   }
 
+  &__description {
+    white-space: pre-line;
+  }
+
   &__list {
     margin-bottom: 6.4rem;
   }
@@ -63,6 +67,10 @@
 
     &__image {
       width: 144rem;
+    }
+
+    &__iframe-location {
+      width: 100%;
     }
   }
 }

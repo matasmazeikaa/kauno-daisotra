@@ -6,7 +6,6 @@ import HeroSection from '@/components/HeroSection';
 import CommonServiceSection from '@/components/CommonServiceSection';
 
 const ItempiamosPriekabos = ({ data }) => {
-	console.log(data)
 	const {
 		contactUs,
 	} = data.reused.childMarkdownRemark.frontmatter;
@@ -21,10 +20,10 @@ const ItempiamosPriekabos = ({ data }) => {
 			<div className="section">
 				<HeroSection key={1} hero={hero} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<CommonServiceSection data={infoSection} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<HomeContactUs key={6} contactUs={contactUs} />
 			</div>
 		</Layout>

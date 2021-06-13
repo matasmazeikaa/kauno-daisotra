@@ -20,10 +20,10 @@ const BDFKonteineriai = ({ data }) => {
 			<div className="section">
 				<HeroSection key={1} hero={hero} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<CommonServiceSection data={infoSection} />
 			</div>
-			<div className="section">
+			<div className="section fp-auto-height-responsive">
 				<HomeContactUs key={6} contactUs={contactUs} />
 			</div>
 		</Layout>

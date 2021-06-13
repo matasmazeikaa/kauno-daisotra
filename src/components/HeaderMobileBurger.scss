@@ -36,6 +36,7 @@
       bottom: -7px;
     }
   }
+
   &--active {
     > span {
       height: 0;
@@ -84,6 +85,31 @@
     margin-bottom: 4rem;
     text-transform: uppercase;
     max-width: 25rem;
+  }
+
+  &__image {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    z-index: -2;
+    top: 0;
+  }
+
+  &__background {
+    background-color: #000000;
+    opacity: 0.7;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    z-index: -1;
+    top: 0;
+  }
+
+  &__nav-container {
+    position: relative;
+    z-index: 200;
   }
 
   &__link:not(:last-child) {

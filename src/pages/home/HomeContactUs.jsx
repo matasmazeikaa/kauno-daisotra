@@ -15,7 +15,7 @@ const HomeContactUs = ({ contactUs }) => (
 								<img className="mr-24 mb-auto" src={point.image.image.publicURL} alt={point.image.alt} />
 								<div className="text-left">
 									<h3 className="text-uppercase text-left">{point.title}</h3>
-									<p className="body-small text-left">{point.description}</p>
+									<p className="home-contact-us__description body-small text-left">{point.description}</p>
 								</div>
 							</div>
 						</li>

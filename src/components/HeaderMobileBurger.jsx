@@ -4,6 +4,7 @@ import './HeaderMobileBurger.scss';
 import Link from '@/components/Link';
 import { NAVIGATION_LINKS } from '@/components/Header';
 import GatsbyImage from 'gatsby-image';
+import backgroundImage from '../../static/img/home-transportation.png';
 
 const HeaderMobileBurger = () => {
 	const [isMobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -11,8 +12,7 @@ const HeaderMobileBurger = () => {
 	return (
 		<>
 			<a
-				href="#"
-				onClick={() => { setMobileMenuOpen((prev) => !prev); }}
+				onClick={() => { setMobileMenuOpen((prev) => !prev); console.log('hello'); }}
 				className={cx({
 					menuButton: true,
 					'menuButton--active': isMobileMenuOpen,
@@ -26,6 +26,9 @@ const HeaderMobileBurger = () => {
 				'text-center': true,
 			})}
 			>
+					dfasdfdasf
+				<div className="mainMenu__background" />
+				<img src={backgroundImage} alt="Background" className="mainMenu__image" />
 				<h2 className="mainMenu__title">Naviguok greičiau</h2>
 				<ul>
 					{NAVIGATION_LINKS.map((link) => (
