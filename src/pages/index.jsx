@@ -1,12 +1,12 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import Layout from '@/components/Layout';
-import HomeHeroSection from '@/pages/home/HomeHeroSection';
-import HomeAboutUsSection from '@/pages/home/HomeAboutUsSection';
-import HomeServicesSection from '@/pages/home/HomeServicesSection';
-import HomeTransportationSection from '@/pages/home/HomeTransportationSection';
-import HomeWhyUs from '@/pages/home/HomeWhyUs';
-import HomeContactUs from '@/pages/home/HomeContactUs';
+import HomeHeroSection from '@/components/HomeHeroSection';
+import HomeAboutUsSection from '@/components/HomeAboutUsSection';
+import HomeServicesSection from '@/components/HomeServicesSection';
+import HomeTransportationSection from '@/components/HomeTransportationSection';
+import HomeWhyUs from '@/components/HomeWhyUs';
+import HomeContactUs from '@/components/HomeContactUs';
 
 const IndexPage = ({ data }) => {
 	const {

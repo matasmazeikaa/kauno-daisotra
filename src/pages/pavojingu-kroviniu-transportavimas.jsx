@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import Layout from '@/components/Layout';
-import HomeContactUs from '@/pages/home/HomeContactUs';
+import HomeContactUs from '@/components/HomeContactUs';
 import HeroSection from '@/components/HeroSection';
 import CommonServiceSection from '@/components/CommonServiceSection';
 

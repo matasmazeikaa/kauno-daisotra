@@ -2,9 +2,9 @@ import React from 'react';
 import Section from '@/components/Section';
 import './HomeAboutUsSection.scss';
 import GatsbyImage from 'gatsby-image';
-import EuropeSvg from '../../../static/img/europe.svg';
+import EuropeSvg from '../../static/img/europe.svg';
 
-const HomeAboutUsSection = ({ aboutUs }) => (
+const HomeAboutUsSection = ({ aboutUs = {} }) => aboutUs.title && (
 	<div className="about-us-background" key={2}>
 		<img className="about-us-background__europe-background" src={EuropeSvg} alt="Europe" />
 		<Section className="about-us">
