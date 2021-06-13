@@ -26,13 +26,12 @@ const HeaderMobileBurger = () => {
 				'text-center': true,
 			})}
 			>
-					dfasdfdasf
 				<div className="mainMenu__background" />
 				<img src={backgroundImage} alt="Background" className="mainMenu__image" />
 				<h2 className="mainMenu__title">Naviguok greičiau</h2>
 				<ul>
 					{NAVIGATION_LINKS.map((link) => (
-						<li className="mainMenu__link">
+						<li className="mainMenu__link" onClick={() => setMobileMenuOpen(false)}>
 							<Link title={link.title} href={link.to} />
 						</li>
 					))}

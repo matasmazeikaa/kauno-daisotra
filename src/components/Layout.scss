@@ -1,4 +1,10 @@
-.fp-viewing-pradzia .header {
+.fp-viewing-pradzia .header__nav-container {
+  opacity: 1;
+  transition: all 1.1s ease-out;
+  pointer-events: all;
+}
+
+.fp-viewing-pradzia .header__language-selector {
   opacity: 1;
   transition: all 1.1s ease-out;
   pointer-events: all;

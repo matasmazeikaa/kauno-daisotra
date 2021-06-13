@@ -4,10 +4,10 @@
   width: 30px;
   display: none;
 
-  position: absolute;
+  position: fixed;
   right: 50px;
   top: 17px;
-  z-index: 101;
+  z-index: 200;
   > span {
     background-color: #fff;
     border-radius: 1px;

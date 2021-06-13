@@ -6,13 +6,13 @@
 	width: 100%;
 	z-index: 1;
 	transition: all 1.1s ease-out;
-	opacity: 0;
-	pointer-events: none;
 
 	&__nav-container {
 		align-self: center;
 		margin: 0 22% 0 8%;
 		width: 100%;
+		opacity: 0;
+		pointer-events: none;
 	}
 
 	&__links {
@@ -51,6 +51,8 @@
 	&__language-selector {
 		display: flex;
 		align-items: center;
+		opacity: 0;
+		pointer-events: none;
 	}
 
 	@include up-to-medium-large {
