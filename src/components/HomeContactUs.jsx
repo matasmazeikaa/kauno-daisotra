@@ -3,7 +3,7 @@ import './HomeContactUs.scss';
 
 const IFRAME_SRC = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4587.736347264823!2d24.02730693718647!3d54.90523598334507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e71820c82f2cb9%3A0xa771a53cd2f9d1bb!2sAteities%20pl.%2030A%2C%20Kaunas%2052163!5e0!3m2!1sen!2slt!4v1623173080822!5m2!1sen!2slt';
 
-const HomeContactUs = ({ contactUs }) => (
+const HomeContactUs = ({ contactUs = {} }) => (contactUs.background ? (
 	<div className="about-us-background">
 		<section className="home-contact-us">
 			<img
@@ -55,6 +55,6 @@ const HomeContactUs = ({ contactUs }) => (
 			/>
 		</section>
 	</div>
-);
+) : null);
 
 export default HomeContactUs;

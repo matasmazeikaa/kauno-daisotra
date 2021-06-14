@@ -21,7 +21,7 @@ aboutUs:
       image: /static/img/hero-about-us.png
       alt: About us image
   background:
-    image: /static/img/europe.png
+    image: /static/img/europe.svg
     alt: Europe
   info:
     - title: Saugus transportavimas
