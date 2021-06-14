@@ -23,7 +23,7 @@ const HomeServicesSection = ({ services }) => (
 					>
 						<img className="home-services__service-icon" src={image.image.publicURL} alt={image.alt} />
 						<h3 className="home-services__service-title">{title}</h3>
-						<Button title={button.title} to={button.to} type="secondary" />
+						<Button title={button.title} to={button.to} type="secondary" lang="en" />
 					</div>
 				))}
 			</div>

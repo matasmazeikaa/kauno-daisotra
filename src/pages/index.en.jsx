@@ -19,6 +19,8 @@ const IndexPage = ({ data }) => {
 		contactUs,
 	} = data.content.childMarkdownRemark.frontmatter;
 
+	console.log(aboutUs);
+
 	return (
 		<Layout pageMetadata={pageMetadata}>
 			<div className="section">
@@ -46,8 +48,8 @@ const IndexPage = ({ data }) => {
 export default IndexPage;
 
 export const PageQuery = graphql`
-    query IndexPage {
-        content: file(relativePath: {eq: "pages/home.md" }) {
+    query {
+        content: file(relativePath: {eq: "pages/home-en.md" }) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {
@@ -202,7 +204,7 @@ export const PageQuery = graphql`
                                 alt
                             }
                         }
-                    }   
+                    }
                 }
             }
         }

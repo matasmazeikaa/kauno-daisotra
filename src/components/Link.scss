@@ -1,4 +1,6 @@
 .link {
+  $this: &;
+
   font-size: 1.4rem;
   line-height: 1.35;
   font-weight: 600;
@@ -21,6 +23,12 @@
   }
 
   &:hover:after {
+    width: 100%;
+    left: 0;
+    background: #fff;
+  }
+
+  &--active:after {
     width: 100%;
     left: 0;
     background: #fff;

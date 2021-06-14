@@ -44,7 +44,13 @@ export const PageQuery = graphql`
                     contactUs {
                     		title
                     		description
-                    		info {
+                        background {
+                            image {
+                                publicURL
+                            }
+                            alt
+                        }
+                        info {
                     				title
                     				description
                     				image {

@@ -15,6 +15,8 @@ const BDFKonteineriai = ({ data }) => {
 		pageMetadata,
 	} = data.content.childMarkdownRemark.frontmatter;
 
+	console.log(data);
+
 	return (
 		<Layout pageMetadata={pageMetadata}>
 			<div className="section">
@@ -34,16 +36,18 @@ export default BDFKonteineriai;
 
 export const PageQuery = graphql`
     query {
-        reused: file(name: { eq: "home" }) {
+        reused: file(relativePath: {eq: "pages/home.md"}) {
             childMarkdownRemark {
                 frontmatter {
-                    pageMetadata {
-                        title
-                        description
-                    }
                     contactUs {
                         title
                         description
+                        background {
+                            image {
+                                publicURL
+                            }
+                            alt
+                        }
                         info {
                             title
                             description
@@ -58,7 +62,7 @@ export const PageQuery = graphql`
                 }
             }
         }
-        content: file(relativePath: {eq: "pages/konteineriu-transportavimas.md"}) {
+        content: file(relativePath: {eq: "pages/bdf-konteineriai.md"}) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {

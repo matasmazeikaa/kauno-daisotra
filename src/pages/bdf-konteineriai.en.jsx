@@ -44,6 +44,12 @@ export const PageQuery = graphql`
                     contactUs {
                         title
                         description
+                        background {
+                            image {
+                                publicURL
+                            }
+                            alt
+                        }
                         info {
                             title
                             description
@@ -58,7 +64,7 @@ export const PageQuery = graphql`
                 }
             }
         }
-        content: file(relativePath: {eq: "pages/konteineriu-transportavimas.md"}) {
+        content: file(relativePath: {eq: "pages/bdf-konteineriai-en.md"}) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {

@@ -51,7 +51,6 @@ const Layout = ({ children, pageMetadata }) => {
 			</Helmet>
 
 			<ReactFullpage
-				debug /* Debug logging */
 				navigation
 				anchors={['pradzia', 'apie-mus', 'paslaugos', 'transportavimas', 'kodel-mes', 'kontaktai']}
 				navigationTooltips={['Pradžia', 'Apie mus', 'Paslaugos', 'Transportavimas', 'Kodėl mes?', 'Kontaktai']}

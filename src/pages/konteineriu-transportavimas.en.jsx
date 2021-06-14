@@ -5,32 +5,32 @@ import HomeContactUs from '@/components/HomeContactUs';
 import HeroSection from '@/components/HeroSection';
 import CommonServiceSection from '@/components/CommonServiceSection';
 
-const ItempiamosPriekabos = ({ data }) => {
-	const {
-		contactUs,
-	} = data.reused.childMarkdownRemark.frontmatter;
-	const {
-		hero,
-		infoSection,
-		pageMetadata,
-	} = data.content.childMarkdownRemark.frontmatter;
+const KonteineriuTransportavimas = ({ data }) => {
+		const {
+				contactUs,
+		} = data.reused.childMarkdownRemark.frontmatter;
+		const {
+				hero,
+				infoSection,
+				pageMetadata,
+		} = data.content.childMarkdownRemark.frontmatter;
 
-	return (
-		<Layout pageMetadata={pageMetadata}>
-			<div className="section">
-				<HeroSection key={1} hero={hero} />
-			</div>
-			<div className="section fp-auto-height-responsive">
-				<CommonServiceSection data={infoSection} />
-			</div>
-			<div className="section fp-auto-height-responsive">
-				<HomeContactUs key={6} contactUs={contactUs} />
-			</div>
-		</Layout>
-	);
+		return (
+				<Layout pageMetadata={pageMetadata}>
+						<div className="section">
+								<HeroSection key={1} hero={hero} />
+						</div>
+						<div className="section fp-auto-height-responsive">
+								<CommonServiceSection data={infoSection} />
+						</div>
+						<div className="section fp-auto-height-responsive">
+								<HomeContactUs key={6} contactUs={contactUs} />
+						</div>
+				</Layout>
+		);
 };
 
-export default ItempiamosPriekabos;
+export default KonteineriuTransportavimas;
 
 export const PageQuery = graphql`
     query {
@@ -64,7 +64,7 @@ export const PageQuery = graphql`
                 }
             }
         }
-        content: file(relativePath: {eq: "pages/itempiamos-priekabos.md" }) {
+        content: file(relativePath: {eq: "pages/konteineriu-transportavimas-en.md" }) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {
