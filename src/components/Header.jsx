@@ -15,7 +15,11 @@ export const NAVIGATION_LINKS = [
 ];
 
 const Header = () => {
-	const isEnglishLanguage = window.location.pathname.split('/')[1] && window.location.pathname.split('/')[1] === 'en';
+	if (typeof window === 'undefined') {
+		return <p>Server Render</p>;
+	}
+
+	const isEnglishLanguage = window && window.location.pathname.split('/')[1] && window.location.pathname.split('/')[1] === 'en';
 
 	return (
 		<header className="header" id="header">
