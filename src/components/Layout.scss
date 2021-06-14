@@ -4,6 +4,10 @@
   pointer-events: all;
 }
 
+.all-background {
+  background-color: $primary;
+}
+
 .fp-viewing-pradzia .header__language-selector {
   opacity: 1;
   transition: all 1.1s ease-out;

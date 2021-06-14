@@ -6,11 +6,26 @@ const IFRAME_SRC = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4587.7
 const HomeContactUs = ({ contactUs }) => (
 	<div className="about-us-background">
 		<section className="home-contact-us">
+			<img
+				src={contactUs.background.image.publicURL}
+				alt={contactUs.background.alt}
+				className="home-contact-us__section-background"
+			/>
+
 			<div className="home-contact-us__text-container">
-				<h2 className="home-contact-us__title text-uppercase text-left">{contactUs.title}</h2>
+				<h2
+					data-sal="flip-left"
+					data-sal-delay="200"
+					className="home-contact-us__title text-uppercase text-left"
+				>
+					{contactUs.title}
+				</h2>
 				<ul className="home-contact-us__list">
-					{contactUs.info.map((point) => (
-						<li>
+					{contactUs.info.map((point, index) => (
+						<li
+							data-sal={(index + 1) % 2 === 0 ? 'slide-right' : 'slide-left'}
+							data-sal-delay={((index + 1) * 100)}
+						>
 							<div className="flex flex-align-center home-contact-us__list-item">
 								<img className="mr-24 mb-auto" src={point.image.image.publicURL} alt={point.image.alt} />
 								<div className="text-left">
@@ -21,7 +36,13 @@ const HomeContactUs = ({ contactUs }) => (
 						</li>
 					))}
 				</ul>
-				<p className="body mb-40 text-left">{contactUs.description}</p>
+				<p
+					className="body mb-40 text-left"
+					data-sal="flip-right"
+					data-sal-delay="300"
+				>
+					{contactUs.description}
+				</p>
 			</div>
 			<iframe
 				title="Ateities pl. 30A"

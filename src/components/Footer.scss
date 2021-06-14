@@ -24,6 +24,29 @@
     align-items: center;
     margin-left: 10%;
     width: 100%;
+
+    &:hover {
+      & > a {
+        opacity: 0.4;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: $white;
+          opacity: 1;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+
+    &  > a {
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $white;
+        opacity: 1;
+        transition: all 0.3s ease;
+      }
+    }
   }
 
   @include up-to-large {

@@ -2,8 +2,8 @@ import { seo } from '../partials/seo';
 
 const page = {
 	file: 'content/pages/bdf-konteineriai.md',
-	label: 'Home',
-	name: 'home',
+	label: 'BDF konteineriai',
+	name: 'bdf-konteineriai',
 	fields: [
 		{
 			label: 'Hero section',

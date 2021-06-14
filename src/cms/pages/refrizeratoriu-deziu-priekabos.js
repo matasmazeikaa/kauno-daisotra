@@ -2,8 +2,8 @@ import { seo } from '../partials/seo';
 
 const page = {
 	file: 'content/pages/refrizeratoriu-deziu-priekabos.md',
-	label: 'Home',
-	name: 'home',
+	label: 'Refrizeratoriu deziu priekabos',
+	name: 'refrizeratoriu-deziu-priekabos',
 	fields: [
 		{
 			label: 'Hero section',

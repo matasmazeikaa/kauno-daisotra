@@ -4,7 +4,7 @@ import './Button.scss';
 import { Link } from 'gatsby';
 
 const Button = ({
-	title, type = 'primary', className, isAlwaysDesktopPadding, to, isGatsbyLink = false,
+	title, type = 'primary', className, isAlwaysDesktopPadding, to, isGatsbyLink = false, dataSal, dataSalDelay
 }) => (isGatsbyLink ? (
 	<Link
 		type="button"
@@ -28,6 +28,8 @@ const Button = ({
 			'button--always-desktop-padding': isAlwaysDesktopPadding,
 			[className]: className,
 		})}
+		data-sal={dataSal}
+		data-sal-delay={dataSalDelay}
 	>
 		{title}
 	</a>

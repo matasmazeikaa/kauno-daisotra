@@ -6,6 +6,7 @@ $font-family: 'Rubik', sans-serif;
 	font-weight: 700;
 	color: $white;
 	text-align: center;
+	text-transform: uppercase;
 
 	@include up-to-medium {
 		font-size: 3.2rem;
@@ -19,6 +20,7 @@ $font-family: 'Rubik', sans-serif;
 	margin-bottom: 2.4rem;
 	text-align: center;
 	color: $white;
+	text-transform: uppercase;
 
 	@include up-to-medium {
 		font-size: 2.8rem;

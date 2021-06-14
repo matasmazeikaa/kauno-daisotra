@@ -15,21 +15,31 @@ const HomeServicesSection = ({ services }) => (
 		<Section className="home-services">
 			<h2 className="home-services__service-title">{services.title}</h2>
 			<div className="home-services__services">
-				{services.services.map(({ title, button, image }) => (
-					<div className="home-services__service">
+				{services.services.map(({ title, button, image }, index) => (
+					<div
+						className="home-services__service"
+						data-sal={index % 2 === 0 ? 'slide-down' : 'slide-up'}
+						data-sal-delay={100 * (index + 1)}
+					>
 						<img className="home-services__service-icon" src={image.image.publicURL} alt={image.alt} />
 						<h3 className="home-services__service-title">{title}</h3>
 						<Button title={button.title} to={button.to} type="secondary" />
 					</div>
 				))}
 			</div>
-			<div className="home-services__subsection flex-all-center-column">
+			<div
+				className="home-services__subsection flex-all-center-column"
+				data-sal="zoom-out"
+				data-sal-delay="200"
+			>
 				<h2 className="text-uppercase mb-8">{services.subsection.title}</h2>
 				<p className="body mb-24">{services.subsection.description}</p>
 				<Button
 					isAlwaysDesktopPadding
 					title={services.subsection.button.title}
 					to={services.subsection.button.to}
+					type="third"
+					className="home-services__button"
 				/>
 				<img
 					src={services.subsection.background.image.publicURL}

@@ -27,6 +27,13 @@
 		}
 	}
 
+	&--third {
+		&:hover, &:active, &:focus {
+			background-color: $secondary;
+			color: $white;
+		}
+	}
+
 	&--always-desktop-padding {
 		padding: 1.6rem 4rem;
 	}

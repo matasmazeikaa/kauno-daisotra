@@ -11,14 +11,30 @@ const HomeWhyUs = ({ whyUs }) => (
 				alt={whyUs.background.alt}
 				className="home-why-us__section-background"
 			/>
-			<div className="home-why-us__image-container">
+			<div
+				className="home-why-us__image-container"
+				data-sal="slide-right"
+				data-sal-delay="200"
+			>
 				<div className="home-why-us__box" />
 				<GatsbyImage className="home-why-us__image" fluid={whyUs.image.image.childImageSharp.fluid} />
 				<div className="home-why-us__box-empty" />
 			</div>
 			<div className="home-why-us__text-container">
-				<h2 className="mb-24 text-uppercase text-left">{whyUs.title}</h2>
-				<p className="body mb-40 text-left home-why-us__info">{whyUs.description}</p>
+				<h2
+					className="mb-24 text-uppercase text-left"
+					data-sal="slide-right"
+					data-sal-delay="100"
+				>
+					{whyUs.title}
+				</h2>
+				<p
+					data-sal="slide-right"
+					data-sal-delay="200"
+					className="body mb-40 text-left home-why-us__info"
+				>
+					{whyUs.description}
+				</p>
 				<Collapsible items={whyUs.info} />
 			</div>
 		</section>

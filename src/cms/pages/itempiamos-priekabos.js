@@ -2,8 +2,8 @@ import { seo } from '../partials/seo';
 
 const page = {
 	file: 'content/pages/itempiamos-priekabos.md',
-	label: 'Home',
-	name: 'home',
+	label: 'Itempiamos priekabos',
+	name: 'itempiamos-priekabos',
 	fields: [
 		{
 			label: 'Hero section',

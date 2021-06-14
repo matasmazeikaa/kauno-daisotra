@@ -13,9 +13,27 @@ const HomeTransportationSection = ({ transportation }) => (
 	>
 		<BackgroundOverlay />
 		<Section className="home-transportation flex-all-center-column">
-			<h2 className="mb-24">{transportation.title}</h2>
-			<p className="body mb-40 white">{transportation.description}</p>
-			<Button isAlwaysDesktopPadding title={transportation.button.title} to={transportation.button.to} />
+			<h2
+				className="mb-24 home-transportation__text-container"
+				data-sal="flip-left"
+				data-sal-delay="200"
+			>
+				{transportation.title}
+			</h2>
+			<p
+				data-sal="slide-right"
+				data-sal-delay="200"
+				className="body mb-40 white home-transportation__text-container "
+			>
+				{transportation.description}
+			</p>
+			<Button
+				dataSal="fade"
+				dataSalDelay="200"
+				isAlwaysDesktopPadding
+				title={transportation.button.title}
+				to={transportation.button.to}
+			/>
 		</Section>
 	</BackgroundImage>
 );

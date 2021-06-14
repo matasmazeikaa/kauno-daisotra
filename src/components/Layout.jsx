@@ -10,7 +10,7 @@ const Layout = ({ children, pageMetadata }) => {
 	const { title, description } = pageMetadata;
 
 	return (
-		<div>
+		<div className="all-background">
 			<Helmet>
 				<html lang="en" />
 				<title>{title}</title>
@@ -55,7 +55,6 @@ const Layout = ({ children, pageMetadata }) => {
 				navigation
 				anchors={['pradzia', 'apie-mus', 'paslaugos', 'transportavimas', 'kodel-mes', 'kontaktai']}
 				navigationTooltips={['Pradžia', 'Apie mus', 'Paslaugos', 'Transportavimas', 'Kodėl mes?', 'Kontaktai']}
-				showActiveTooltip
 				fixedElements="#header"
 				navigationPosition="left"
 				responsiveWidth={1024}
@@ -64,7 +63,7 @@ const Layout = ({ children, pageMetadata }) => {
 						<Header />
 						<ReactFullpage.Wrapper>
 							{children}
-							<div className="section fp-auto-height">
+							<div className="section fp-auto-height" style={{ top: '-3px' }}>
 								<Footer />
 							</div>
 						</ReactFullpage.Wrapper>

@@ -16,8 +16,11 @@ const Collapsable = ({ items }) => {
 		}));
 	};
 
-	return items.map((item) => (
-		<div>
+	return items.map((item, index) => (
+		<div
+			data-sal={index === 0 ? 'slide-right' : 'slide-left'}
+			data-sal-delay={((index + 1) * 100) + 200}
+		>
 			<button
 				onClick={() => toggleCollapsible(item.title)}
 				className={cx({

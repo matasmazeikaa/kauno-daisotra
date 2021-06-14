@@ -22,13 +22,12 @@
 
 		&:hover {
 			& > li > a {
-				color: transparent;
-				text-shadow: 0 0 3px rgba(	186,	198,	210, 0.7);
+				opacity: 0.4;
 				transition: all 0.3s ease;
 
 				&:hover {
 					color: $white;
-					text-shadow: none;
+					opacity: 1;
 					transition: all 0.3s ease;
 				}
 			}
@@ -36,6 +35,12 @@
 
 		& > li > a {
 			transition: all 0.3s ease;
+
+			&:hover {
+				color: $white;
+				opacity: 1;
+				transition: all 0.3s ease;
+			}
 		}
 
 		& > li {

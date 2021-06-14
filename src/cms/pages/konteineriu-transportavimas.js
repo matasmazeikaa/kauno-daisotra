@@ -2,8 +2,8 @@ import { seo } from '../partials/seo';
 
 const page = {
 	file: 'content/pages/konteineriu-transportavimas.md',
-	label: 'Home',
-	name: 'home',
+	label: 'Konteineriu transportavimas',
+	name: 'konteineriu-transportavimas',
 	fields: [
 		{
 			label: 'Hero section',

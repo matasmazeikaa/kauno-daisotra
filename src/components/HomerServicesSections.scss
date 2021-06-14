@@ -24,6 +24,11 @@
     margin-bottom: 1.6rem;
   }
 
+  &__button {
+    position: relative;
+    z-index: 2;
+  }
+
   &__service {
     display: flex;
     flex-direction: column;

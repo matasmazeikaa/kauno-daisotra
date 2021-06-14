@@ -33,6 +33,12 @@
     clip-path: inset(0 0 0 11%);
   }
 
+  &__section-background {
+    position: absolute;
+    top: 41%;
+    left: 17%;
+    transform: translate(-75%, -50%);
+  }
 
   @include up-to-medium-large {
     @include regular-section-padding;
@@ -42,6 +48,12 @@
 
     &__text-container {
       max-width: unset;
+    }
+
+    &__section-background {
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
     &__iframe-location {

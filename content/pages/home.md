@@ -105,7 +105,7 @@ whyUs:
     image: /static/img/home-why-us.png
     alt: Why us
   background:
-    image: /static/img/circles.svg
+    image: /static/img/circles-full.svg
     alt: Circles
   info:
     - title: Kas mes tokie?
@@ -116,7 +116,7 @@ whyUs:
       image:
         image: /static/img/driving.svg
         alt: Driving
-    - title: Ką mes siųlome?
+    - title: Ką mes siūlome?
       description: Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime sutalpinti viską!
   
 
@@ -128,7 +128,7 @@ contactUs:
   title: Susisiekite su mumis
   description: Mūsų teikiamos krovinių gabenimo paslaugos vertos Jūsų dėmesio
   background:
-    image: /static/img/circles.svg
+    image: /static/img/circles-full.svg
     alt: Circles
   info:
     - title: Adresas

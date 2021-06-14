@@ -53,10 +53,9 @@
 
   &__section-background {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 41%;
+    left: 91%;
     transform: translate(-75%, -50%);
-
   }
 
   @include up-to-medium {
@@ -87,6 +86,10 @@
     padding-left: 0;
     width: 144rem;
     margin: 0 auto;
+
+    &__section-background {
+      left: 110%;
+    }
 
     &__image {
       width: 144rem;
