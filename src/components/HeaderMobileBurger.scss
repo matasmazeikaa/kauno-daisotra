@@ -5,7 +5,7 @@
   display: none;
 
   position: fixed;
-  right: 50px;
+  right: 5.5%;
   top: 17px;
   z-index: 200;
   > span {
@@ -56,6 +56,10 @@
     color: #818181;
     margin-top: auto;
     max-width: 20rem;
+  }
+
+  @include up-to-medium {
+    right: 6.5%;
   }
 
   @include up-to-medium-large {
