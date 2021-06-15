@@ -14,6 +14,7 @@ const CommonServiceSection = ({ data }) => (
 							className="common-service-section__point-container"
 							data-sal={(index + 1) % 2 === 0 ? 'flip-right' : 'flip-left'}
 							data-sal-delay={((index + 1) * 100)}
+							data-sal-duration="1000"
 						>
 							<h2 className="common-service-section__point-title">
 								0
@@ -28,6 +29,7 @@ const CommonServiceSection = ({ data }) => (
 				className="common-service-section__image-container"
 				data-sal="slide-left"
 				data-sal-delay="150"
+				data-sal-duration="1000"
 			>
 				<div className="common-service-section__box" />
 				<GatsbyImage className="common-service-section__image" fluid={data.image.image.childImageSharp.fluid} />

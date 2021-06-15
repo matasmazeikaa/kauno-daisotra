@@ -30,6 +30,7 @@ const Button = ({
 		})}
 		data-sal={dataSal}
 		data-sal-delay={dataSalDelay}
+		data-sal-duration="1000"
 	>
 		{title}
 	</a>

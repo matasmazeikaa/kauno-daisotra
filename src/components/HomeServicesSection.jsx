@@ -20,6 +20,7 @@ const HomeServicesSection = ({ services }) => (
 						className="home-services__service"
 						data-sal={index % 2 === 0 ? 'slide-down' : 'slide-up'}
 						data-sal-delay={100 * (index + 1)}
+						data-sal-duration="1000"
 					>
 						<img className="home-services__service-icon" src={image.image.publicURL} alt={image.alt} />
 						<h3 className="home-services__service-title">{title}</h3>
@@ -31,6 +32,7 @@ const HomeServicesSection = ({ services }) => (
 				className="home-services__subsection flex-all-center-column"
 				data-sal="zoom-out"
 				data-sal-delay="200"
+				data-sal-duration="1000"
 			>
 				<h2 className="text-uppercase mb-8">{services.subsection.title}</h2>
 				<p className="body mb-24">{services.subsection.description}</p>

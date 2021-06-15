@@ -16,6 +16,7 @@ const HomeContactUs = ({ contactUs = {} }) => (contactUs.background ? (
 				<h2
 					data-sal="flip-left"
 					data-sal-delay="200"
+					data-sal-duration="1000"
 					className="home-contact-us__title text-uppercase text-left"
 				>
 					{contactUs.title}
@@ -25,6 +26,7 @@ const HomeContactUs = ({ contactUs = {} }) => (contactUs.background ? (
 						<li
 							data-sal={(index + 1) % 2 === 0 ? 'slide-right' : 'slide-left'}
 							data-sal-delay={((index + 1) * 100)}
+							data-sal-duration="1000"
 						>
 							<div className="flex flex-align-center home-contact-us__list-item">
 								<img className="mr-24 mb-auto" src={point.image.image.publicURL} alt={point.image.alt} />
@@ -40,6 +42,7 @@ const HomeContactUs = ({ contactUs = {} }) => (contactUs.background ? (
 					className="body mb-40 text-left"
 					data-sal="flip-right"
 					data-sal-delay="300"
+					data-sal-duration="1000"
 				>
 					{contactUs.description}
 				</p>

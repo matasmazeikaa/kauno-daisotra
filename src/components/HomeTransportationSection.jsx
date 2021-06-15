@@ -17,12 +17,14 @@ const HomeTransportationSection = ({ transportation }) => (
 				className="mb-24 home-transportation__text-container"
 				data-sal="flip-left"
 				data-sal-delay="200"
+				data-sal-duration="1000"
 			>
 				{transportation.title}
 			</h2>
 			<p
 				data-sal="slide-right"
 				data-sal-delay="200"
+				data-sal-duration="1000"
 				className="body mb-40 white home-transportation__text-container "
 			>
 				{transportation.description}

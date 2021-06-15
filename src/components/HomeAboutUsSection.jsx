@@ -12,12 +12,14 @@ const HomeAboutUsSection = ({ aboutUs = {} }) => aboutUs.title && (
 				<h2
 					className="about-us__title text-uppercase"
 					data-sal="slide-right"
+					data-sal-duration="1000"
 				>
 					{aboutUs.title}
 				</h2>
 				<p
 					className="body about-us__info"
 					data-sal="slide-right"
+					data-sal-duration="1000"
 				>
 					{aboutUs.description}
 				</p>
@@ -26,6 +28,7 @@ const HomeAboutUsSection = ({ aboutUs = {} }) => aboutUs.title && (
 						<li
 							data-sal="slide-right"
 							data-sal-delay={100 * (index + 1)}
+							data-sal-duration="1000"
 						>
 							<div className="flex flex-align-center mb-24">
 								<img className="mr-24" src={point.image.image.publicURL} alt={point.image.alt} />
@@ -38,6 +41,7 @@ const HomeAboutUsSection = ({ aboutUs = {} }) => aboutUs.title && (
 			<div
 				className="about-us__image-container"
 				data-sal="slide-left"
+				data-sal-duration="1000"
 			>
 				<div className="about-us__box" />
 				<GatsbyImage

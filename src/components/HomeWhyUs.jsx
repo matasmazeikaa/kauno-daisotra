@@ -15,6 +15,7 @@ const HomeWhyUs = ({ whyUs }) => (
 				className="home-why-us__image-container"
 				data-sal="slide-right"
 				data-sal-delay="200"
+				data-sal-duration="1000"
 			>
 				<div className="home-why-us__box" />
 				<GatsbyImage className="home-why-us__image" fluid={whyUs.image.image.childImageSharp.fluid} />
@@ -25,12 +26,14 @@ const HomeWhyUs = ({ whyUs }) => (
 					className="mb-24 text-uppercase text-left"
 					data-sal="slide-right"
 					data-sal-delay="100"
+					data-sal-duration="1000"
 				>
 					{whyUs.title}
 				</h2>
 				<p
 					data-sal="slide-right"
 					data-sal-delay="200"
+					data-sal-duration="1000"
 					className="body mb-40 text-left home-why-us__info"
 				>
 					{whyUs.description}
