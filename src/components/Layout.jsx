@@ -5,9 +5,18 @@ import '@/components/Layout.scss';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ReactFullpage from '@fullpage/react-fullpage';
+import FullPageLoader from '@/components/FullPageLoader';
 
 const Layout = ({ children, pageMetadata }) => {
 	const { title, description } = pageMetadata;
+	const [isLoadingPage, setIsLoadingPage] = React.useState(true);
+
+	React.useEffect(() => {
+		// Update the document title using the browser API
+		setTimeout(() => {
+			setIsLoadingPage(false);
+		}, 2000);
+	});
 
 	return (
 		<div className="all-background">
@@ -49,6 +58,8 @@ const Layout = ({ children, pageMetadata }) => {
 					content={`${withPrefix('/')}img/og-image.jpg`}
 				/>
 			</Helmet>
+
+			<FullPageLoader isLoadingPage={isLoadingPage} />
 
 			<ReactFullpage
 				navigation
