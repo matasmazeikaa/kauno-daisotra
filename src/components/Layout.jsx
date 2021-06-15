@@ -59,7 +59,7 @@ const Layout = ({ children, pageMetadata }) => {
 				/>
 			</Helmet>
 
-			<FullPageLoader isLoadingPage={true} />
+			<FullPageLoader isLoadingPage={isLoadingPage} />
 
 			<ReactFullpage
 				navigation
