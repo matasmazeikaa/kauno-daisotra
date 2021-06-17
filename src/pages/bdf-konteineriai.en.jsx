@@ -4,6 +4,7 @@ import Layout from '@/components/Layout';
 import HomeContactUs from '@/components/HomeContactUs';
 import HeroSection from '@/components/HeroSection';
 import CommonServiceSection from '@/components/CommonServiceSection';
+import CommonServiceSectionSmall from '@/components/CommonServiceSectionSmall';
 
 const BDFKonteineriai = ({ data }) => {
 	const {
@@ -22,6 +23,9 @@ const BDFKonteineriai = ({ data }) => {
 			</div>
 			<div className="section fp-auto-height-responsive">
 				<CommonServiceSection data={infoSection} />
+			</div>
+			<div className="section fp-auto-height">
+				<CommonServiceSectionSmall key={6} data={infoSection} />
 			</div>
 			<div className="section fp-auto-height-responsive">
 				<HomeContactUs key={6} contactUs={contactUs} />

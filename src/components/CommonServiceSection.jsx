@@ -6,10 +6,10 @@ import EuropeSvg from '../../static/img/europe.svg';
 const CommonServiceSection = ({ data }) => (
 	<div className="about-us-background" key={2}>
 		<img className="about-us-background__europe-background" src={EuropeSvg} alt="Europe" />
-		<section className="common-service-section">
+		<section className="common-service-section common-service-section--no-padding-bottom">
 			<div className="common-service-section__text-container">
 				<ul>
-					{data.points.map((point, index) => (
+					{data.points.slice(0, 3).map((point, index) => (
 						<li
 							className="common-service-section__point-container"
 							data-sal={(index + 1) % 2 === 0 ? 'flip-right' : 'flip-left'}

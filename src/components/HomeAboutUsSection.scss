@@ -97,7 +97,7 @@
 	background-color: $primary;
 	display: flex;
 	position: relative;
-	overflow: hidden;
+	overflow: visible !important;
 	height: 100%;
 
 	&__europe-background {

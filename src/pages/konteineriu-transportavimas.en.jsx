@@ -4,30 +4,34 @@ import Layout from '@/components/Layout';
 import HomeContactUs from '@/components/HomeContactUs';
 import HeroSection from '@/components/HeroSection';
 import CommonServiceSection from '@/components/CommonServiceSection';
+import CommonServiceSectionSmall from '@/components/CommonServiceSectionSmall';
 
 const KonteineriuTransportavimas = ({ data }) => {
-		const {
-				contactUs,
-		} = data.reused.childMarkdownRemark.frontmatter;
-		const {
-				hero,
-				infoSection,
-				pageMetadata,
-		} = data.content.childMarkdownRemark.frontmatter;
+	const {
+		contactUs,
+	} = data.reused.childMarkdownRemark.frontmatter;
+	const {
+		hero,
+		infoSection,
+		pageMetadata,
+	} = data.content.childMarkdownRemark.frontmatter;
 
-		return (
-				<Layout pageMetadata={pageMetadata}>
-						<div className="section">
-								<HeroSection key={1} hero={hero} />
-						</div>
-						<div className="section fp-auto-height-responsive">
-								<CommonServiceSection data={infoSection} />
-						</div>
-						<div className="section fp-auto-height-responsive">
-								<HomeContactUs key={6} contactUs={contactUs} />
-						</div>
-				</Layout>
-		);
+	return (
+		<Layout pageMetadata={pageMetadata}>
+			<div className="section">
+				<HeroSection key={1} hero={hero} />
+			</div>
+			<div className="section fp-auto-height-responsive">
+				<CommonServiceSection data={infoSection} />
+			</div>
+			<div className="section fp-auto-height">
+				<CommonServiceSectionSmall key={6} data={infoSection} />
+			</div>
+			<div className="section fp-auto-height-responsive">
+				<HomeContactUs key={6} contactUs={contactUs} />
+			</div>
+		</Layout>
+	);
 };
 
 export default KonteineriuTransportavimas;
