@@ -1,25 +1,29 @@
 ---
-pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
 hero:
-  title: Dėmesys jūsų kroviniams
-  description: UAB Kauno Daisotra įkurta prieš du dešimtmečius. Profesionalus įmonės valdymas grįstas šeimyninėmis vertybėmis užsitarnavo pasitikėjimą tarp klientų. Per 20 pastarųjų metų įmonė užaugo ir sūlo platų transportavimo ir logistikos paslaugų spektrą visoje geografinėje Europoje.
+  title: Dėmesys jūsų kroviniamss
+  description: UAB Kauno Daisotra įkurta prieš du dešimtmečius. Profesionalus
+    įmonės valdymas grįstas šeimyninėmis vertybėmis užsitarnavo pasitikėjimą
+    tarp klientų. Per 20 pastarųjų metų įmonė užaugo ir sūlo platų
+    transportavimo ir logistikos paslaugų spektrą visoje geografinėje Europoje.
   button:
     title: Bendradarbiaukime
-    to: '#kontaktai'
+    to: "#kontaktai"
   background:
     image: /static/img/home-header.png
     alt: Home header
 aboutUs:
-  title: Apie mus 
-  description: Kol kitos transporto kompanijos siūlo vieno tipo transporto priemones, mes galime pasiūlyti žymiai daugiau - nuo krovinio gabenimo įprastinėmis tentinėmis transporto priemonėmis, iki krovinių gabenimo didžiakūbėmis transporto priemonėmis.
+  title: Apie mus
+  description: >-
+    Kol kitos transporto kompanijos siūlo vieno tipo transporto priemones, mes
+    galime pasiūlyti žymiai daugiau - nuo krovinio gabenimo įprastinėmis
+    tentinėmis transporto priemonėmis, iki krovinių gabenimo didžiakūbėmis
+    transporto priemonėmis.
 
 
     Kai verslui reikia krovinio gabenimo iš taško A į tašką B, mes pasirūpiname ne tik saugiu transportavimu, bet ir dokumentų tvarkymu, bei krovinio draudimu.
   image:
-      image: /static/img/hero-about-us.png
-      alt: About us image
+    image: /static/img/hero-about-us.png
+    alt: About us image
   background:
     image: /static/img/europe.svg
     alt: Europe
@@ -85,19 +89,25 @@ services:
       alt: Services background
     button:
       title: Bendradarbiaukime
-      to: '#kontaktai'
+      to: "#kontaktai"
 transportation:
   title: Transportavima padarome saugiu ir greitu
-  description: Nuo pirmos įkūrimo dienos (tai įvyko 1997 metais), visada vadovavomės tais pačiais sėkmingo verslo principais - paprastas, saugus ir greitas krovinių gabenimas tenkinantis tiek smulkaus verslininko, tiek didžiulės korporacijos logistinius poreikius.
+  description: Nuo pirmos įkūrimo dienos (tai įvyko 1997 metais), visada
+    vadovavomės tais pačiais sėkmingo verslo principais - paprastas, saugus ir
+    greitas krovinių gabenimas tenkinantis tiek smulkaus verslininko, tiek
+    didžiulės korporacijos logistinius poreikius.
   button:
     title: Bendradarbiaukime
-    to: '#kontaktai'
+    to: "#kontaktai"
   background:
     image: /static/img/home-transportation.png
     alt: Transportation
 whyUs:
   title: Kodėl mes?
-  description: Kiekvienas mūsų komandos narys - profesionalus, motyvuotas darbuotojas, sukaupęs daugiametę patirtį transporto srityje. Jūs galite mums patikėti savo krovinius.
+  description: >-
+    Kiekvienas mūsų komandos narys - profesionalus, motyvuotas darbuotojas,
+    sukaupęs daugiametę patirtį transporto srityje. Jūs galite mums patikėti
+    savo krovinius.
 
 
     Mūsų parką sudaro virš 45 tentinių ir didžiatūrių transporto priemonių - verčia mus transporto rinkos lyderiais ne tik Lietuvoje, bet ir visoje Europoje.
@@ -109,16 +119,20 @@ whyUs:
     alt: Circles
   info:
     - title: Kas mes tokie?
-      description: Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime sutalpinti viską!
-  
+      description: >-
+        Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime
+        sutalpinti viską!
+
 
         Vykdydami klientų užsakymus, visada vadovaujamės principu - profesionali paslauga - patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų - užtikrins sėkmingą Jūsų krovinio pristatymą.
       image:
         image: /static/img/driving.svg
         alt: Driving
     - title: Ką mes siūlome?
-      description: Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime sutalpinti viską!
-  
+      description: >-
+        Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime
+        sutalpinti viską!
+
 
         Vykdydami klientų užsakymus, visada vadovaujamės principu - profesionali paslauga - patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų - užtikrins sėkmingą Jūsų krovinio pristatymą.
       image:
@@ -132,8 +146,8 @@ contactUs:
     alt: Circles
   info:
     - title: Adresas
-      description: Ateities pl. 30A, Kaunas LT
-
+      description: |-
+        Ateities pl. 30A, Kaunas LT
         52163, Lietuva
       image:
         image: /static/img/location.svg
@@ -148,4 +162,8 @@ contactUs:
       image:
         image: /static/img/fax.svg
         alt: Faksas
+pageMetadata:
+  title: Starter metadata title
+  description: Starter metadata description
+  image: /img/1.jpg
 ---
