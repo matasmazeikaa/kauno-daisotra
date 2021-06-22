@@ -1,6 +1,6 @@
 ---
 hero:
-  title: Dėmesys jūsų kroviniamss
+  title: Dėmesys jūsų kroviniams
   description: UAB Kauno Daisotra įkurta prieš du dešimtmečius. Profesionalus
     įmonės valdymas grįstas šeimyninėmis vertybėmis užsitarnavo pasitikėjimą
     tarp klientų. Per 20 pastarųjų metų įmonė užaugo ir sūlo platų
