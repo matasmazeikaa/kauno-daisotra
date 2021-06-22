@@ -10,6 +10,6 @@ export const image = (imageName) => ({
 			widget: 'image',
 			allow_multiple: false,
 		},
-		{ label: 'Alt text', name: 'altText', widget: 'string' },
+		{ label: 'Alt text', name: 'alt', widget: 'string' },
 	],
 });
