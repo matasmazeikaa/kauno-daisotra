@@ -14,10 +14,15 @@ hero:
 aboutUs:
   title: Apie mus
   description: >-
-    Kol kitos transporto kompanijos siūlo vieno tipo transporto priemones, mes
-    galime pasiūlyti žymiai daugiau - nuo krovinio gabenimo įprastinėmis
-    tentinėmis transporto priemonėmis, iki krovinių gabenimo didžiakūbėmis
-    transporto priemonėmis.
+    Kauno Daisotra įkurta prieš du dešimtmečius. Daugiau nei 2 000 klientų
+    pasitikėjimą pelnyti pavyko versle taikant šeimos vertybes ir geriausias
+    vakarietiškas vadybos praktikas. Įgijome savo specializaciją ir pažinome
+    klientus, todėl galime pasiūlyti individualiems poreikiams pritaikytus
+    sprendimus, tuo pačiu užtikrinant priimtiną kainodarą, lanksčias sąlygas,
+    kokybiškas ir lūkesčius atitinkančias paslaugas bei profesionalią
+    komunikaciją.
+
+    Per 20 pastarųjų metų įmonė užaugo ir siūlo platų transportavimo ir logistikos paslaugų spektrą visoje geografinėje Europoje.
 
 
     Kai verslui reikia krovinio gabenimo iš taško A į tašką B, mes pasirūpiname ne tik saugiu transportavimu, bet ir dokumentų tvarkymu, bei krovinio draudimu.
