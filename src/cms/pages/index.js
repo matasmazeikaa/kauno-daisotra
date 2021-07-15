@@ -1,4 +1,5 @@
 import home from './home';
+import homeEn from './home-en';
 import bdfKonteineriai from './bdf-konteineriai';
 import bdfKonteineriaiEn from './bdf-konteineriai-en';
 import itempiamosPriekabos from './itempiamos-priekabos';
@@ -15,6 +16,7 @@ const pages = {
 	label: 'Pages',
 	files: [
 		home,
+		homeEn,
 		bdfKonteineriai,
 		bdfKonteineriaiEn,
 		itempiamosPriekabos,
