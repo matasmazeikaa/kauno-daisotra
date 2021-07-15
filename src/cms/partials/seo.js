@@ -20,7 +20,7 @@ export const seo = {
 			label: 'Image',
 			name: 'image',
 			widget: 'image',
-			required: true,
+			required: false,
 			default: '/img/shareable-default.jpg',
 		},
 	],
