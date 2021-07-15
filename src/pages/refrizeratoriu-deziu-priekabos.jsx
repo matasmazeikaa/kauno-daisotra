@@ -46,8 +46,8 @@ export const PageQuery = graphql`
                         description
                     }
                     contactUs {
-                    		title
-                    		description
+                        title
+                        description
                         background {
                             image {
                                 publicURL
@@ -55,15 +55,15 @@ export const PageQuery = graphql`
                             alt
                         }
                         info {
-                    				title
-                    				description
-                    				image {
-                    						image {
-                    								publicURL
-                    						}
-                    						alt
-                    				}
-                    		}
+                            title
+                            description
+                            image {
+                                image {
+                                    publicURL
+                                }
+                                alt
+                            }
+                        }
                     }
                 }
             }
@@ -116,9 +116,7 @@ export const PageQuery = graphql`
                             }
                             alt
                         }
-                        points {
-                            description
-                        }
+                        description
                     }
                 }
             }

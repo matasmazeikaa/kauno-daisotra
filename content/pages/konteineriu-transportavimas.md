@@ -20,10 +20,5 @@ infoSection:
   background:
     image: /static/img/freight.svg
     alt: Europe
-  points:
-    - description: Standard, double-deckers, bi-temperature.
-    - description: Certified to transport perishable food products, healthcare products, high value goods.
-    - description: Maintain temperature range from -25 ℃ to + 25 ℃.
-    - description: Available with 2,65 m or 2,7 m inner height.
-    - description: Solar panels mounted on semi-trailers roof to facilitate power supply for GPS and temperature units.
+  description: Bla bla
 ---

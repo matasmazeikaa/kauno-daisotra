@@ -115,9 +115,7 @@ export const PageQuery = graphql`
                             }
                             alt
                         }
-                        points {
-                            description
-                        }
+                        description
                     }
                 }
             }

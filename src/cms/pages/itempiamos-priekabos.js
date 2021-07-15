@@ -29,11 +29,12 @@ const page = {
 				image(),
 				background(),
 				{
-					label: 'Points',
-					name: 'points',
-					widget: 'list',
-					fields: [{ label: 'Description', name: 'description', widget: 'string' }],
+					label: 'Description',
+					name: 'description',
+					widget: 'markdown',
+					modes: ['rich_text'],
 				},
+
 			],
 		},
 		seo,
