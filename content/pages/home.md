@@ -46,7 +46,7 @@ aboutUs:
         image: /static/img/ribbon.svg
         alt: About us image
 services:
-  title: Mes teikiamae šias paslaugas
+  title: Mes teikiame šias paslaugas
   background:
     image: /static/img/home-services.png
     alt: Services background
@@ -58,7 +58,7 @@ services:
       button:
         title: Daugiau
         to: /refrizeratoriu-deziu-priekabos
-    - title: Įtempiamos priekabos
+    - title: Krovinių gabenimas tentinėmis priekabomis ar puspriekabėmis
       button:
         title: Daugiau
         to: /itempiamos-priekabos
@@ -72,7 +72,7 @@ services:
       image:
         image: /static/img/worldwide-shipping.svg
         alt: BDF konteineriai
-    - title: Konteinerių transportavimas
+    - title: Krovinių gabenimas konteineriais
       button:
         title: Daugiau
         to: /konteineriu-transportavimas
@@ -96,11 +96,15 @@ services:
       title: Bendradarbiaukime
       to: "#kontaktai"
 transportation:
-  title: Transportavima padarome saugiu ir greitu
+  title: Transportavimo paslaugos - taip, kaip patogu jums
   description: Nuo pirmos įkūrimo dienos (tai įvyko 1997 metais), visada
-    vadovavomės tais pačiais sėkmingo verslo principais - paprastas, saugus ir
-    greitas krovinių gabenimas tenkinantis tiek smulkaus verslininko, tiek
-    didžiulės korporacijos logistinius poreikius.
+    vadovavomės tais pačiais sėkmingo verslo principais – vertinti klientą,
+    pasiūlyti jam lanksčias sąlygas, patogų bendradarbiavimą ir visuomet
+    užtikrinti saugų bei greitą krovinių gabenimą už gerą kainą. Tuo vadovaujasi
+    ir mūsų vairuotojai, kurie kasdien gabena tiek smulkius krovinius siuntų
+    tarnyboms ar kasdienių prekių parduotuvėms, tiek sudėtingus ir pavojingus
+    petrochemijos ar autopramonės krovinius. UAB Kauno Daisotra komandos
+    sprendimai tinka tiek smulkiam verslui, tiek didžiulėms korporacijoms.
   button:
     title: Bendradarbiaukime
     to: "#kontaktai"
@@ -110,12 +114,13 @@ transportation:
 whyUs:
   title: Kodėl mes?
   description: >-
-    Kiekvienas mūsų komandos narys - profesionalus, motyvuotas darbuotojas,
-    sukaupęs daugiametę patirtį transporto srityje. Jūs galite mums patikėti
-    savo krovinius.
+    Kiekvienas mūsų komandos narys – profesionalus, motyvuotas darbuotojas,
+    sukaupęs daugiametę patirtį transporto srityje. Mes galime pasiūlyti
+    įvairiomis kalbomis kalbančius vairuotojus su skirtingomis
+    specializacijomis. Viena iš įmonės stiprybių – Jungtinės Karalystės rinka.
 
 
-    Mūsų parką sudaro virš 45 tentinių ir didžiatūrių transporto priemonių - verčia mus transporto rinkos lyderiais ne tik Lietuvoje, bet ir visoje Europoje.
+    Mūsų parką sudaro virš 45 tentinių ir didžiatūrių transporto priemonių, o komandą daugiau nei 100 žmonių, todėl galite būti tikri – Jūsų užsakymą įgyvendinsime Jums patogiu būdu, reikiamu laiku bei užtikrinsime lanksčias bendradarbiavimo sąlygas.
   image:
     image: /static/img/home-why-us.png
     alt: Why us
@@ -129,17 +134,19 @@ whyUs:
         sutalpinti viską!
 
 
-        Vykdydami klientų užsakymus, visada vadovaujamės principu - profesionali paslauga - patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų - užtikrins sėkmingą Jūsų krovinio pristatymą.
+        Mes, Kauno Daisotra komanda, dirbame dėl Jūsų. Vykdydami klientų užsakymus, visada vadovaujamės principu: profesionali paslauga = patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų, todėl mes užtikrinsime sėkmingą Jūsų krovinio pristatymą.
       image:
         image: /static/img/driving.svg
         alt: Driving
     - title: Ką mes siūlome?
-      description: >-
-        Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime
-        sutalpinti viską!
-
-
-        Vykdydami klientų užsakymus, visada vadovaujamės principu - profesionali paslauga - patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų - užtikrins sėkmingą Jūsų krovinio pristatymą.
+      description: Nuo pirkinių iš užsienio el. parduotuvių pristatymo kurjeriams ir
+        ledų pristatymo į prekybos tinklus iki degių, pavojingų ir ypatingai
+        rizikingų krovinių – Kauno Daisotra komanda gali pasiūlyti įvairaus
+        pobūdžio paslaugas ir į kliento poreikius orientuotą aptarnavimą. Šeimos
+        vertybėmis ir geriausiomis tarptautinės vadybos praktikomis
+        besiremiantis verslo valdymas leidžia mums puoselėti ilgalaikius ir
+        tvarius santykius su klientais ir nuolat augti, o tai mums – pagrindinis
+        tikslas. Ieškote transportavimo, logistikos partnerio? Pasikalbėkime!
       image:
         image: /static/img/box.svg
         alt: About us image
@@ -151,9 +158,7 @@ contactUs:
     alt: Circles
   info:
     - title: Adresas
-      description: |-
-        Ateities pl. 30A, Kaunas LT
-        52163, Lietuva
+      description: Ateities pl. 30A, Kaunas LT52163, Lietuva
       image:
         image: /static/img/location.svg
         alt: Location
