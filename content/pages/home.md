@@ -1,17 +1,6 @@
 ---
 hero:
-  title: "Itin atsakingas ir kruopštus darbas, kurį atlikti gali tikrai ne
-    kiekvienas geras vairuotojas. Tam yra skirti specialūs kursai, laikomas
-    egzaminas, mokslas trunka ne vieną dieną – būtent tokie asmenys ir mūsų
-    įmonėje sėkmingai jau daug metų gabena pavojingus krovinius.  Kodėl
-    pavojingi? Tai yra specifiniai kroviniai, kuriuose gali būti: sprogiosios,
-    degios medžiagos ir gaminiai, degios dujos, toksiškos dujos, degiosios
-    kietosios ir skystosios medžiagos. Radioktyviosios, savaime
-    užsiliepsnojančios, nuodingos, oksiduojančios ir kitokio tipo pavojingos
-    medžiagos. Tokiems kroviniams gabenti yra keliami aukšti saugumo
-    kriterijai.  Mes profesionaliai pasirūpinsime pavojingų krovinių
-    transportavimu, tad Jums nereikės pergyventi ir sukti galvos, tiesiog
-    pasitikėkite mumis ir pas mus dirbančiais profesionalais. "
+  title: "Transportavimas ir logistika: patogiai, lanksčiai, laiku"
   description: "Individualūs sprendimai verslui, kuris ieško patikimo ir
     profesionalaus pervežimų bei sandėliavimo partnerio. Pasirūpinsime ne tik
     bazine paslauga, bet ir dokumentais, draudimu, suteiksime garantijas. "
