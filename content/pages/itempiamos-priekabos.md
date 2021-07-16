@@ -18,15 +18,15 @@ infoSection:
     image: /static/img/europe.svg
     alt: Europe
   description: >-
-    Mūsų įmonė puikiai supranta, jog gabenti gali tekti įvairiausius produktus,
-    ypatingo dėmesio reikalaujančias prekes, medžiagas. Tokiam atvejui puikiai
-    tiks krovinių gabenimas refrižeratoriais ir dėžių priekabomis.
+    Tentai suteikia galimybę pakrauti krovinį taip, kaip Jums patogu. Kartais
+    tenka naudoti konteinerius atviru viršum, kuriuos uždengia tentas. Tai ypač
+    patogus būdas norint lengvai pakrauti krovinius iš viršaus.
 
 
-    Refrižeratoriai turi stiprius šaldymo mechanizmus, kuriuose temperatūra gali būti net -30 laipsnių. Tai puikus būdas, kuomet norima gabenti šaldytą produkciją, pvz. mėsą, žuvį, kitus šaldytus maisto produktus arba tokios temperatūros reikalaujančias chemines medžiagas.
+    Metalas, mediena ir kiti panašūs dalykai puikiai gali būti gabenami krovinių su tentais pagalba. Jie suteikia galimybę pakrauti, iškrauti ir pervežti skirtingo dydžio, išmatavimų ir svorio krovinius. Pagal Europinius standartus, visas puspriekabes yra galimybė pakrauti iš galo, šono arba per viršų. Telpa 33 euro paletės, o tūris būna iki 92m2. Krovinį tvirtina aštuoni statramsčiai ir dvylika tvirtinimo diržų.
 
 
-    Refrižeratoriai ir dėžės padeda išsaugoti produktus, prekes, nepakeičiant jų savybių ar formos. Mes žinome, jog klientams svarbus krovinių gabenimas, tačiau tuo pačiu suprantame, jog be kokybės jis tampa bevertis. Mums rūpi kokybė, greitis ir tinkamai teikiamos paslaugos, todėl nesidrovėkite ir klauskite mūsų visko, kas Jums rūpi.
+    Visa tai garantuoja tvirtumą, saugumą ir aukštus standartus, gabenant krovinį.
 pageMetadata:
   title: Starter metadata title
   description: Starter metadata description
