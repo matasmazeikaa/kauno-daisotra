@@ -7,6 +7,8 @@ import Footer from '@/components/Footer';
 import ReactFullpage from '@fullpage/react-fullpage';
 import FullPageLoader from '@/components/FullPageLoader';
 
+console.error = () => {};
+
 const Layout = ({ children, pageMetadata }) => {
 	const { title, description } = pageMetadata;
 	const [isLoadingPage, setIsLoadingPage] = React.useState(true);
