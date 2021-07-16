@@ -5,7 +5,7 @@ import button from '../partials/button';
 
 const page = {
 	file: 'content/pages/konteineriu-transportavimas.md',
-	label: 'Konteineriu transportavimas',
+	label: 'Krovinių gabenimas konteineriais',
 	name: 'konteineriu-transportavimas',
 	fields: [
 		{

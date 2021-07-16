@@ -5,7 +5,7 @@ import button from '../partials/button';
 
 const page = {
 	file: 'content/pages/itempiamos-priekabos-en.md',
-	label: 'Itempiamos priekabos english',
+	label: 'Krovinių gabenimas tentinėmis priekabomis ar puspriekabėmis english',
 	name: 'itempiamos-priekabos-en',
 	fields: [
 		{
