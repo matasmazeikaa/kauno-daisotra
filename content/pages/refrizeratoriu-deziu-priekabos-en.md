@@ -2,7 +2,7 @@
 hero:
   title: Refrigerator and box trailers
   button:
-    title: Susisiekite su mumis
+    title: Let's talk
     to: "#kontaktai"
   background:
     image: /static/img/home-why-us.png
