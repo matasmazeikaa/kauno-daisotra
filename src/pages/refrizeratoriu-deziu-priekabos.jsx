@@ -24,9 +24,6 @@ const DeziuPriekabosPage = ({ data }) => {
 			<div className="section fp-auto-height-responsive">
 				<CommonServiceSection data={infoSection} />
 			</div>
-			<div className="section fp-auto-height">
-				<CommonServiceSectionSmall key={6} data={infoSection} />
-			</div>
 			<div className="section fp-auto-height-responsive">
 				<HomeContactUs key={6} contactUs={contactUs} />
 			</div>

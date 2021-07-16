@@ -12,7 +12,10 @@ const HeaderMobileBurger = () => {
 	return (
 		<>
 			<a
-				onClick={() => { setMobileMenuOpen((prev) => !prev); console.log('hello'); }}
+				onClick={() => {
+					setMobileMenuOpen((prev) => !prev);
+					console.log('hello');
+				}}
 				className={cx({
 					menuButton: true,
 					'menuButton--active': isMobileMenuOpen,
@@ -31,7 +34,11 @@ const HeaderMobileBurger = () => {
 				<h2 className="mainMenu__title">Naviguok greičiau</h2>
 				<ul>
 					{NAVIGATION_LINKS.map((link) => (
-						<li className="mainMenu__link" onClick={() => setMobileMenuOpen(false)}>
+						<li
+							key={link.title}
+							className="mainMenu__link"
+							onClick={() => setMobileMenuOpen(false)}
+						>
 							<Link title={link.title} href={link.to} />
 						</li>
 					))}

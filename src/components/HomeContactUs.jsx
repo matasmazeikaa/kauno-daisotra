@@ -27,6 +27,7 @@ const HomeContactUs = ({ contactUs = {} }) => (contactUs.background ? (
 							data-sal={(index + 1) % 2 === 0 ? 'slide-right' : 'slide-left'}
 							data-sal-delay={((index + 1) * 100)}
 							data-sal-duration="1000"
+							key={point.title}
 						>
 							<div className="flex flex-align-center home-contact-us__list-item">
 								<img className="mr-24 mb-auto" src={point.image.image.publicURL} alt={point.image.alt} />

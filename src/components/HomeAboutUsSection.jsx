@@ -16,6 +16,13 @@ const HomeAboutUsSection = ({ aboutUs = {} }) => aboutUs.title && (
 				>
 					{aboutUs.title}
 				</h2>
+				<h3
+					className="about-us__subtitle text-uppercase"
+					data-sal="slide-right"
+					data-sal-duration="1000"
+				>
+					{aboutUs.subtitle}
+				</h3>
 				<p
 					className="body about-us__info"
 					data-sal="slide-right"
@@ -23,20 +30,6 @@ const HomeAboutUsSection = ({ aboutUs = {} }) => aboutUs.title && (
 				>
 					{aboutUs.description}
 				</p>
-				<ul>
-					{aboutUs.info.map((point, index) => (
-						<li
-							data-sal="slide-right"
-							data-sal-delay={100 * (index + 1)}
-							data-sal-duration="1000"
-						>
-							<div className="flex flex-align-center mb-24">
-								<img className="mr-24" src={point.image.image.publicURL} alt={point.image.alt} />
-								<h3 className="text-uppercase">{point.title}</h3>
-							</div>
-						</li>
-					))}
-				</ul>
 			</div>
 			<div
 				className="about-us__image-container"

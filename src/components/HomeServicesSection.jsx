@@ -17,6 +17,7 @@ const HomeServicesSection = ({ services }) => (
 			<div className="home-services__services">
 				{services.services.map(({ title, button, image }, index) => (
 					<div
+						key={title}
 						className="home-services__service"
 						data-sal={index % 2 === 0 ? 'slide-down' : 'slide-up'}
 						data-sal-delay={100 * (index + 1)}

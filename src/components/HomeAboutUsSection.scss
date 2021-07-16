@@ -1,118 +1,127 @@
 .about-us {
-	position: relative;
-	display: flex;
-	width: 100%;
-	align-items: center;
-	padding: 8rem 0 8rem 12%;
-	height: 100vh;
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 8rem 0 8rem 12%;
+  height: 100vh;
 
-	&__text-container {
-		max-width: 54rem;
-		margin-right: 10rem;
-	}
+  &__text-container {
+    max-width: 54rem;
+    margin-right: 10rem;
+  }
 
-	&__title {
-		margin-bottom: 2.4rem;
-		text-align: left;
-	}
+  &__title {
+    margin-bottom: 2.4rem;
+    text-align: left;
+  }
 
-	&__info {
-		margin-bottom: 4rem;
-		text-align: left;
-		white-space: pre-wrap;
-	}
+  &__subtitle {
+    margin-bottom: 2.4rem;
+    text-align: left;
+  }
 
-	&__image-container {
-		position: relative;
-		width: 100%;
-		height: 100%;
-	}
+  &__info {
+    margin-bottom: 4rem;
+    text-align: left;
+    white-space: pre-wrap;
+  }
 
-	&__box-empty {
-		width: 24rem;
-		height: 5.9rem;
-		border: 4px solid $secondary;
-		background-color: transparent;
-		position: absolute;
-		bottom: -3rem;
-		left: -5rem;
-	}
+  &__image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
 
-	&__box {
-		width: 12rem;
-		height: 8rem;
-		background-color: $secondary;
-		position: absolute;
-		top: -3rem;
-		left: -5rem;
-	}
+  &__box-empty {
+    width: 24rem;
+    height: 5.9rem;
+    border: 4px solid $secondary;
+    background-color: transparent;
+    position: absolute;
+    bottom: -3rem;
+    left: -5rem;
+  }
 
-	&__point-image-container {
-		display: flex;
-	}
+  &__box {
+    width: 12rem;
+    height: 8rem;
+    background-color: $secondary;
+    position: absolute;
+    top: -3rem;
+    left: -5rem;
+  }
 
-	&__image {
-		width: 100%;
-		position: absolute !important;
-		left: 0;
-		top: 0;
-		bottom: 0;
-	}
+  &__point-image-container {
+    display: flex;
+  }
 
-	@include up-to-medium {
-		@include regular-section-padding;
+  &__image {
+    width: 100%;
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
 
-		&__text-container {
-			margin: 0;
-		}
+  @include up-to-medium {
+    @include regular-section-padding;
 
-		&__title {
-			margin-bottom: 1.6rem;
-		}
+    &__text-container {
+      margin: 0;
+    }
 
-		&__info {
-			margin-bottom: 2.4rem;
-		}
-	}
+    &__title {
+      margin-bottom: 1.6rem;
+    }
 
-	@include up-to-medium-large {
-		&__image-container {
-			display: none;
-		}
-	}
+    &__subtitle {
+      margin-bottom: 1.6rem;
+    }
 
-	@media only screen and (min-width: 1720px) {
-		padding-right: 0;
-		padding-left: 0;
-		width: 144rem;
-		margin: 0 auto;
+    &__info {
+      margin-bottom: 2.4rem;
+    }
+  }
 
-		&__image {
-			width: 144rem;
-		}
-	}
+  @include up-to-medium-large {
+    &__image-container {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1720px) {
+    padding-right: 0;
+    padding-left: 0;
+    width: 144rem;
+    margin: 0 auto;
+
+    &__image {
+      width: 144rem;
+    }
+  }
 }
 
 .about-us-background {
-	background-color: $primary;
-	display: flex;
-	position: relative;
-	overflow: visible !important;
-	height: 100%;
+  background-color: $primary;
+  display: flex;
+  position: relative;
+  overflow: visible !important;
+  height: 100%;
 
-	&__europe-background {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-75%, -50%);
-	}
+  &__europe-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+  }
 
-	@include up-to-medium-large {
-		&__europe-background {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}
-	}
+  @include up-to-medium-large {
+    &__europe-background {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 }

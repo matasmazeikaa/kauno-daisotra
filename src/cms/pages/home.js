@@ -27,6 +27,7 @@ const page = {
 			collapsed: true,
 			fields: [
 				{ label: 'Title', name: 'title', widget: 'string' },
+				{ label: 'Subtitle', name: 'subtitle', widget: 'string' },
 				{
 					label: 'Description', name: 'description', widget: 'markdown', modes: ['rich_text'],
 				},

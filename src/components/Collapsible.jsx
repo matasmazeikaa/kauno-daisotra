@@ -21,6 +21,7 @@ const Collapsable = ({ items }) => {
 			data-sal={index === 0 ? 'slide-right' : 'slide-left'}
 			data-sal-delay={((index + 1) * 100) + 200}
 			data-sal-duration="1000"
+			key={item.title}
 		>
 			<button
 				onClick={() => toggleCollapsible(item.title)}

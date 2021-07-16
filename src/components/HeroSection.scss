@@ -16,6 +16,7 @@
   &__title {
     margin-bottom: 3.2rem;
     text-transform: uppercase;
+    max-width: 62rem;
   }
 
   @include up-to-medium {

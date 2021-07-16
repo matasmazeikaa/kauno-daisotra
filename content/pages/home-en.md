@@ -13,6 +13,7 @@ hero:
     alt: Home header
 aboutUs:
   title: About us
+  subtitle: Our ambition - sustainable and effective long-term cooperation
   description: >-
     Kaunas Daisotra was founded two decades ago. More than 2,000 clients have
     earned the trust of the business by applying family values ​​and best

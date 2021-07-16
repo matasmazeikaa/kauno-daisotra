@@ -74,6 +74,7 @@ export const PageQuery = graphql`
                     }
                     aboutUs {
                         title
+                        subtitle
                         description
                         image {
                             image {

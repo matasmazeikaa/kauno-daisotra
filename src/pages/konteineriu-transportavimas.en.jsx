@@ -24,9 +24,6 @@ const KonteineriuTransportavimas = ({ data }) => {
 			<div className="section fp-auto-height-responsive">
 				<CommonServiceSection data={infoSection} />
 			</div>
-			<div className="section fp-auto-height">
-				<CommonServiceSectionSmall key={6} data={infoSection} />
-			</div>
 			<div className="section fp-auto-height-responsive">
 				<HomeContactUs key={6} contactUs={contactUs} />
 			</div>
@@ -38,7 +35,7 @@ export default KonteineriuTransportavimas;
 
 export const PageQuery = graphql`
     query {
-        reused: file(name: { eq: "home" }) {
+        reused: file(relativePath: {eq: "pages/home-en.md" }) {
             childMarkdownRemark {
                 frontmatter {
                     pageMetadata {
