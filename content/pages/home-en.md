@@ -6,7 +6,7 @@ hero:
     take care of the basic service, but also of documents, insurance, and
     provide guarantees.
   button:
-    title: Bendradarbiaukime
+    title: Let's work together
     to: "#kontaktai"
   background:
     image: /static/img/home-header.png
@@ -51,40 +51,40 @@ services:
     image: /static/img/home-services.png
     alt: Services background
   services:
-    - title: Refrižeratorių ir dėžių priekabos
+    - title: Refrigerator and box trailers
       image:
         image: /static/img/refrigerator.svg
         alt: Šaldytuvas
       button:
-        title: Daugiau
+        title: More
         to: /en/refrizeratoriu-deziu-priekabos
-    - title: Įtempiamos priekabos
+    - title: Carriage of goods by tilt trailers or semi – trailers
       button:
-        title: Daugiau
+        title: More
         to: /en/itempiamos-priekabos
       image:
         image: /static/img/delivery-trailer.svg
         alt: Įtempiamos priekabos
-    - title: BDF konteineriai
+    - title: BDF containers
       button:
-        title: Daugiau
+        title: More
         to: /en/bdf-konteineriai
       image:
         image: /static/img/worldwide-shipping.svg
         alt: BDF konteineriai
-    - title: Konteinerių transportavimas
+    - title: Cargo transportation by containers
       button:
-        title: Daugiau
+        title: More
         to: /en/konteineriu-transportavimas
       image:
         image: /static/img/freight.svg
         alt: Konteinerių transportavimas
-    - title: Pavojingų krovinių transportavimas
+    - title: Dangerous cargo transportation
       image:
         image: /static/img/toxic.svg
         alt: Pavojingų krovinių transportavimas
       button:
-        title: Daugiau
+        title: More
         to: /en/pavojingu-kroviniu-transportavimas
   subsection:
     title: Reikia sprendimo jūsų kroviniui?
@@ -106,7 +106,7 @@ transportation:
     for the petrochemical or automotive industries. UAB Kauno Daisotra team
     solutions are suitable for both small businesses and large corporations.
   button:
-    title: Bendradarbiaukime
+    title: Let's work together
     to: "#kontaktai"
   background:
     image: /static/img/home-transportation.png
@@ -148,7 +148,7 @@ whyUs:
         alt: About us image
 contactUs:
   title: Contact us
-  description: Cargo transportations services that we provide are worth your attention
+  description: Our cargo transportation services are worth your attention
   background:
     image: /static/img/circles-full.svg
     alt: Circles
