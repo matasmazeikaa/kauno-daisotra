@@ -1,6 +1,6 @@
 ---
 hero:
-  title: Įtempiamos priekabos
+  title: Krovinių gabenimas tentinėmis priekabomis ar puspriekabėmis
   button:
     title: Susisiekite su mumis
     to: "#kontaktai"

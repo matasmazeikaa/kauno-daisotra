@@ -3,7 +3,7 @@ pageMetadata:
   title: Starter metadata title
   description: Starter metadata description
 hero:
-  title: Konteineriu transportavimas
+  title: Krovinių gabenimas konteineriais
   button:
     title: Susisiekite su mumis
     to: '#kontaktai'
