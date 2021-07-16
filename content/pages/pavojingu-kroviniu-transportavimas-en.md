@@ -1,12 +1,9 @@
 ---
-pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
 hero:
-  title: Pavojingų krovinių transportavimas
+  title: Dangerous cargo transportation
   button:
     title: Susisiekite su mumis
-    to: '#kontaktai'
+    to: "#kontaktai"
   background:
     image: /static/img/home-why-us.png
     alt: Circles
@@ -20,5 +17,18 @@ infoSection:
   background:
     image: /static/img/europe.svg
     alt: Europe
-  description: Bla bla
+  description: "Extremely responsible and meticulous work that not every good
+    driver can do. There are special courses for this, an exam is taken, and
+    studies lasts for more than one day - such employees have been successfully
+    transporting dangerous goods in our company for many years. Why dangerous?
+    These are specific loads that may contain: explosive, flammable materials
+    and articles, flammable gases, toxic gases, flammable solids and liquids.
+    Radioactive, spontaneously flammable, toxic, oxidising and other dangerous
+    substances. High security criteria are set for the transport of such cargo.
+    We will take care of the transportation of dangerous goods professionally,
+    we will take care of the stress for you, just trust us and the professionals
+    working with us"
+pageMetadata:
+  title: Starter metadata title
+  description: Starter metadata description
 ---
