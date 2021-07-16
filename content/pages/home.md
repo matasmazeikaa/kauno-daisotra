@@ -1,10 +1,20 @@
 ---
 hero:
-  title: Dėmesys jūsų kroviniams
-  description: UAB Kauno Daisotra įkurta prieš du dešimtmečius. Profesionalus
-    įmonės valdymas grįstas šeimyninėmis vertybėmis užsitarnavo pasitikėjimą
-    tarp klientų. Per 20 pastarųjų metų įmonė užaugo ir sūlo platų
-    transportavimo ir logistikos paslaugų spektrą visoje geografinėje Europoje.
+  title: "Itin atsakingas ir kruopštus darbas, kurį atlikti gali tikrai ne
+    kiekvienas geras vairuotojas. Tam yra skirti specialūs kursai, laikomas
+    egzaminas, mokslas trunka ne vieną dieną – būtent tokie asmenys ir mūsų
+    įmonėje sėkmingai jau daug metų gabena pavojingus krovinius.  Kodėl
+    pavojingi? Tai yra specifiniai kroviniai, kuriuose gali būti: sprogiosios,
+    degios medžiagos ir gaminiai, degios dujos, toksiškos dujos, degiosios
+    kietosios ir skystosios medžiagos. Radioktyviosios, savaime
+    užsiliepsnojančios, nuodingos, oksiduojančios ir kitokio tipo pavojingos
+    medžiagos. Tokiems kroviniams gabenti yra keliami aukšti saugumo
+    kriterijai.  Mes profesionaliai pasirūpinsime pavojingų krovinių
+    transportavimu, tad Jums nereikės pergyventi ir sukti galvos, tiesiog
+    pasitikėkite mumis ir pas mus dirbančiais profesionalais. "
+  description: "Individualūs sprendimai verslui, kuris ieško patikimo ir
+    profesionalaus pervežimų bei sandėliavimo partnerio. Pasirūpinsime ne tik
+    bazine paslauga, bet ir dokumentais, draudimu, suteiksime garantijas. "
   button:
     title: Bendradarbiaukime
     to: "#kontaktai"
