@@ -23,6 +23,7 @@ hero:
     alt: Home header
 aboutUs:
   title: Apie mus
+  subtitle: Mūsų ambicija - tvarus ir efektyvus ilgalaikis bendradarbiavimas
   description: >-
     Kauno Daisotra įkurta prieš du dešimtmečius. Daugiau nei 2 000 klientų
     pasitikėjimą pelnyti pavyko versle taikant šeimos vertybes ir geriausias
