@@ -2,7 +2,7 @@
 hero:
   title: Cargo transportation by containers
   button:
-    title: Susisiekite su mumis
+    title: Let's talk
     to: "#kontaktai"
   background:
     image: /static/img/home-why-us.png
