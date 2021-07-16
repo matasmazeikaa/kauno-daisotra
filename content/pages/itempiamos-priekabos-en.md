@@ -2,7 +2,7 @@
 hero:
   title: Carriage of goods by tilt trailers or semi – trailers
   button:
-    title: Contact us
+    title: Let's talk
     to: "#kontaktai"
   background:
     image: /static/img/home-why-us.png
