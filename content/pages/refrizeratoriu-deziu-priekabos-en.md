@@ -1,6 +1,6 @@
 ---
 hero:
-  title: Refrižeratorių ir Dėžių Priekabos
+  title: Refrigerator and box trailers
   button:
     title: Susisiekite su mumis
     to: "#kontaktai"
@@ -17,16 +17,17 @@ infoSection:
   background:
     image: /static/img/europe.svg
     alt: Europe
-  description: >-
-    Mūsų įmonė puikiai supranta, jog gabenti gali tekti įvairiausius produktus,
-    ypatingo dėmesio reikalaujančias prekes, medžiagas. Tokiam atvejui puikiai
-    tiks krovinių gabenimas refrižeratoriais ir dėžių priekabomis.
-
-
-    Refrižeratoriai turi stiprius šaldymo mechanizmus, kuriuose temperatūra gali būti net -30 laipsnių. Tai puikus būdas, kuomet norima gabenti šaldytą produkciją, pvz. mėsą, žuvį, kitus šaldytus maisto produktus arba tokios temperatūros reikalaujančias chemines medžiagas.
-
-
-    Refrižeratoriai ir dėžės padeda išsaugoti produktus, prekes, nepakeičiant jų savybių ar formos. Mes žinome, jog klientams svarbus krovinių gabenimas, tačiau tuo pačiu suprantame, jog be kokybės jis tampa bevertis. Mums rūpi kokybė, greitis ir tinkamai teikiamos paslaugos, todėl nesidrovėkite ir klauskite mūsų visko, kas Jums rūpi.
+  description: Our company is well aware that you may need to transport a wide
+    range of products, goods and materials that require special attention. In
+    this case, the transportation of goods by refrigerators and box trailers is
+    perfect. Refrigerators have strong refrigeration mechanisms in which the
+    temperature can be as high as -30 degrees. This is a great way to transport
+    frozen produce, e.g. meat, fish, other frozen foods or chemicals requiring
+    such temperatures. Refrigerators and boxes help to preserve products, goods
+    without changing their internals or shape. We know that freight transport is
+    important to our customers, but at the same time we understand that without
+    quality it becomes worthless. We care about quality, speed and properly
+    provided services, so don't be shy and ask us everything you care about.
 pageMetadata:
   title: Starter metadata title
   description: Starter metadata description
