@@ -1,25 +1,34 @@
 ---
-pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
 hero:
-  title: Attention for your shipment
-  description: UAB Kauno Daisotra įkurta prieš du dešimtmečius. Profesionalus įmonės valdymas grįstas šeimyninėmis vertybėmis užsitarnavo pasitikėjimą tarp klientų. Per 20 pastarųjų metų įmonė užaugo ir sūlo platų transportavimo ir logistikos paslaugų spektrą visoje geografinėje Europoje.
+  title: "Transportation and logistics: comfortable, flexible, on time"
+  description: Individual solutions for businesses that are looking for a reliable
+    and professional transportation and warehousing partner. We will not only
+    take care of the basic service, but also of documents, insurance, and
+    provide guarantees.
   button:
     title: Bendradarbiaukime
-    to: '#kontaktai'
+    to: "#kontaktai"
   background:
     image: /static/img/home-header.png
     alt: Home header
 aboutUs:
-  title: Apie mus 
-  description: Kol kitos transporto kompanijos siūlo vieno tipo transporto priemones, mes galime pasiūlyti žymiai daugiau - nuo krovinio gabenimo įprastinėmis tentinėmis transporto priemonėmis, iki krovinių gabenimo didžiakūbėmis transporto priemonėmis.
+  title: About us
+  description: >-
+    Kaunas Daisotra was founded two decades ago. More than 2,000 clients have
+    earned the trust of the business by applying family values ​​and best
+    Western management practices. We have acquired our specialization and got to
+    know our customers, so we can offer solutions tailored to individual needs,
+    while ensuring reasonable pricing, flexible conditions, quality and
+    expectations-friendly services and professional communication
 
 
-    Kai verslui reikia krovinio gabenimo iš taško A į tašką B, mes pasirūpiname ne tik saugiu transportavimu, bet ir dokumentų tvarkymu, bei krovinio draudimu.
+    Over the last 20 years, the company has grown and offers a wide range of transportation and logistics services throughout geographic Europe.
+
+
+    When a business needs to transport cargo from point A to point B, we take care not only of safe transportation, but also document handling and cargo insurance.
   image:
-      image: /static/img/hero-about-us.png
-      alt: About us image
+    image: /static/img/hero-about-us.png
+    alt: About us image
   background:
     image: /static/img/europe.svg
     alt: Europe
@@ -85,22 +94,29 @@ services:
       alt: Services background
     button:
       title: Bendradarbiaukime
-      to: '#kontaktai'
+      to: "#kontaktai"
 transportation:
-  title: Transportavima padarome saugiu ir greitu
-  description: Nuo pirmos įkūrimo dienos (tai įvyko 1997 metais), visada vadovavomės tais pačiais sėkmingo verslo principais - paprastas, saugus ir greitas krovinių gabenimas tenkinantis tiek smulkaus verslininko, tiek didžiulės korporacijos logistinius poreikius.
+  title: Transportation services - as convenient for you
+  description: From the first day of the establishment (it took place in 1997), we
+    have always been guided by the same principles of successful business - to
+    value the customer, offer him flexible conditions, convenient cooperation
+    and always ensure safe and fast cargo transportation at a good price. This
+    is what our drivers follow, who transport both small loads for parcel
+    services or everyday goods stores, as well as complex and dangerous loads
+    for the petrochemical or automotive industries. UAB Kauno Daisotra team
+    solutions are suitable for both small businesses and large corporations.
   button:
     title: Bendradarbiaukime
-    to: '#kontaktai'
+    to: "#kontaktai"
   background:
     image: /static/img/home-transportation.png
     alt: Transportation
 whyUs:
-  title: Kodėl mes?
-  description: Kiekvienas mūsų komandos narys - profesionalus, motyvuotas darbuotojas, sukaupęs daugiametę patirtį transporto srityje. Jūs galite mums patikėti savo krovinius.
-
-
-    Mūsų parką sudaro virš 45 tentinių ir didžiatūrių transporto priemonių - verčia mus transporto rinkos lyderiais ne tik Lietuvoje, bet ir visoje Europoje.
+  title: Why us?
+  description: Our fleet consists of over 45 tent and large vehicles, and the team
+    is formed with more than 100 people, so you can be sure - we will implement
+    your order in a convenient way, at the right time and ensure flexible
+    conditions of cooperation.
   image:
     image: /static/img/home-why-us.png
     alt: Why us
@@ -108,44 +124,53 @@ whyUs:
     image: /static/img/circles-full.svg
     alt: Circles
   info:
-    - title: Kas mes tokie?
-      description: Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime sutalpinti viską!
-  
+    - title: Who are we?
+      description: >-
+        From a simple tent train to a large cube train - we can accommodate
+        everything!
 
-        Vykdydami klientų užsakymus, visada vadovaujamės principu - profesionali paslauga - patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų - užtikrins sėkmingą Jūsų krovinio pristatymą.
+
+        We, Kaunas Daisotra team, work for you. When executing customer orders, we always follow the principle: professional service = satisfied customer. Our fleet is supervised by authorized services, driven by professional drivers, so we will ensure the successful delivery of your cargo.
       image:
         image: /static/img/driving.svg
         alt: Driving
-    - title: Ką mes siūlome?
-      description: Nuo paprasto tentinio sąstato iki didžiakūbio traukinio - mes galime sutalpinti viską!
-  
-
-        Vykdydami klientų užsakymus, visada vadovaujamės principu - profesionali paslauga - patenkintas klientas. Mūsų transporto parkas prižiūrimas autorizuotuose servizuose, vairuojamas profesionalių vairuotojų - užtikrins sėkmingą Jūsų krovinio pristatymą.
+    - title: What we offer?
+      description: From overseas e-shops purchases delivery to couriers, delivery of
+        ice cream to retail chains to flammable, dangerous and especially risky
+        cargoes - Kaunas Daisotra team can offer various services and
+        customer-oriented service. Business management based on family values
+        ​​and best international management practices allows us to foster
+        long-term and sustainable customer relationships and continuous growth,
+        which is our main goal. Are you looking for a transportation, logistics
+        partner? Let's talk!
       image:
         image: /static/img/box.svg
         alt: About us image
 contactUs:
-  title: Susisiekite su mumis
-  description: Mūsų teikiamos krovinių gabenimo paslaugos vertos Jūsų dėmesio
+  title: Contact us
+  description: Cargo transportations services that we provide are worth your attention
   background:
     image: /static/img/circles-full.svg
     alt: Circles
   info:
-    - title: Adresas
-      description: Ateities pl. 30A, Kaunas LT
-
+    - title: Adress
+      description: |-
+        Ateities pl. 30A, Kaunas LT
         52163, Lietuva
       image:
         image: /static/img/location.svg
         alt: Location
-    - title: Telefonas
+    - title: Phone
       description: +370 37 457 474
       image:
         image: /static/img/phone-call.svg
         alt: Telefonas
-    - title: Faksas
+    - title: Fax
       description: +370 37 452 967
       image:
         image: /static/img/fax.svg
         alt: Faksas
+pageMetadata:
+  title: Starter metadata title
+  description: Starter metadata description
 ---
