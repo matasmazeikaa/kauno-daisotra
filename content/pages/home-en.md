@@ -87,13 +87,13 @@ services:
         title: More
         to: /en/pavojingu-kroviniu-transportavimas
   subsection:
-    title: Reikia sprendimo jūsų kroviniui?
-    description: Mes rasime individualų sprendimą Jūsų kroviniuiĄ
+    title: Are you in need for a cargo solution?
+    description: We will provide the most personalized solution for you
     background:
       image: /static/img/circles.svg
       alt: Services background
     button:
-      title: Bendradarbiaukime
+      title: Let's work together
       to: "#kontaktai"
 transportation:
   title: Transportation services - as convenient for you
