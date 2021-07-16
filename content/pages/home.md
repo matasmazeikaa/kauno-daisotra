@@ -88,7 +88,7 @@ services:
         to: /pavojingu-kroviniu-transportavimas
   subsection:
     title: Reikia sprendimo jūsų kroviniui?
-    description: Mes rasime individualų sprendimą Jūsų kroviniuiĄ
+    description: Mes rasime individualų sprendimą Jūsų kroviniui!
     background:
       image: /static/img/circles.svg
       alt: Services background
