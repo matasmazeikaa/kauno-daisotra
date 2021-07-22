@@ -27,7 +27,7 @@ aboutUs:
 
     Kai verslui reikia krovinio gabenimo iš taško A į tašką B, mes pasirūpiname ne tik saugiu transportavimu, bet ir dokumentų tvarkymu, bei krovinio draudimu.
   image:
-    image: /static/img/hero-about-us.png
+    image: /img/3.png
     alt: About us image
   background:
     image: /static/img/europe.svg
