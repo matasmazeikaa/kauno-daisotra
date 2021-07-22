@@ -1,6 +1,6 @@
 ---
 hero:
-  title: "Transportavimas ir logistika: patogiai, lanksčiai, laik"
+  title: "Transportavimas ir logistika: patogiai, lanksčiai, laiko"
   description: "Individualūs sprendimai verslui, kuris ieško patikimo ir
     profesionalaus pervežimų bei sandėliavimo partnerio. Pasirūpinsime ne tik
     bazine paslauga, bet ir dokumentais, draudimu, suteiksime garantijas. "
